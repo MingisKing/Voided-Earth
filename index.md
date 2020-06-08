@@ -1,4 +1,4 @@
 ```javascript
-script.js
+alert('yeet')
 ```
 # Welcome to Voided Earth!
