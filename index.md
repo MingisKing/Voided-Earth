@@ -4,4 +4,4 @@ layout: default
 
 # Welcome to Voided Earth!
 
-{% include script.js %}
+<script src="script.js"></script>
