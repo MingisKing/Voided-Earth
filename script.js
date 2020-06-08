@@ -26,79 +26,77 @@ if (username === Branson) {
 } else if (username === special) {
     alert("Thank you so much for playing Voided Earth!");
 } else {
-    alert("Hello " + username + ", welcome to Voided Earth!!\nYou are in a dystopian sci-fi world in the year 3069. \nGlobal warming and pollution has gotten a thousand times worse. One side effect of this is extreme versions of natural disaters.")
+    alert("Hello " + username + ", welcome to Voided Earth!!\nYou are in a dystopian sci-fi world in the year 3069. \nGlobal warming and pollution has gotten a thousand times worse. One side effect of this is extreme versions of natural disaters.");
 
-    alert("Over the years, plastics thrown into the ocean or landfills have mutated for strange unknown reasons and evolved into sentient golems with a hate for organic life. \nThere has been a rapid production of many greenhouse gases due to burning millions of tonnes of fossil fuels and natural gasses.")
+    alert("Over the years, plastics thrown into the ocean or landfills have mutated for strange unknown reasons and evolved into sentient golems with a hate for organic life. \nThere has been a rapid production of many greenhouse gases due to burning millions of tonnes of fossil fuels and natural gasses.");
 
-    alert("The temperature can drop below -53°C in winter and rise up to 69°C in the summer.\nAir pollution has been attributed to more than 19% of deaths due to choking and asthma. \nThe ocean was also affected badly, with a destructive 500,000 tonnes of plastic waste escaping into the ocean every single day.")
+    alert("The temperature can drop below -53°C in winter and rise up to 69°C in the summer.\nAir pollution has been attributed to more than 19% of deaths due to choking and asthma. \nThe ocean was also affected badly, with a destructive 500,000 tonnes of plastic waste escaping into the ocean every single day.");
 
-    alert("About 700 species of animals have gone extinct due to the amount of toxins and microplastics released into the oceans, the amount of land cleared and the dirty air.\nSome parts of the ocean are filled with so much toxic waste that it is corrosive. Smaller sources of water have been contaminated and are not suitable for consumption.")
+    alert("About 700 species of animals have gone extinct due to the amount of toxins and microplastics released into the oceans, the amount of land cleared and the dirty air.\nSome parts of the ocean are filled with so much toxic waste that it is corrosive. Smaller sources of water have been contaminated and are not suitable for consumption.");
 
-    alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Sauciety and the poor to starve away to death in slums. \nYou are a member of The Ravioli, and your goal is to try and save what is left of this world from the Sauciety.")
+    alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Sauciety.");
 
-    alert("Side note, please take note that for your answers, they need to be left in capital letters! For example, 'A' cannot be 'a'")
+    let rite1 = ("A");
 
-    let rite1 = ("A")
-
-    let Question1 = prompt("You need to pick an equipment pack provided by The Ravioli.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.")
+    let Question1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
 
     if (Question1 === rite1) {
-        alert("You picked up the pack and went to the hanger for further instructions.")
+        alert("You picked up the pack and went to the hanger for further instructions.");
     } else {
-        alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.")
+        alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
     }
 
-    let rite2 = ("C")
-    let rite2_1 = ("A")
+    let rite2 = ("C");
+    let rite2_1 = ("A");
 
-    let Question2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.")
+    let Question2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.");
 
     if (Question2 === rite2) {
-        alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle")
+        alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle");
     } else if (Question2 === rite2_1) {
-        alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.")
+        alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
     } else {
-        alert("You chose the jet as you felt it was the wisest choice of the three.")
+        alert("You chose the jet as you felt it was the wisest choice of the three.");
     }
 
-    let rite3 = ("C")
-    let rite3_1 = ("B")
+    let rite3 = ("C");
+    let rite3_1 = ("B");
 
-    let Question3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?")
+    let Question3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?");
 
     if (Question3 === rite3) {
-        alert("You picked up the glove and felt stronger for some reason......")
+        alert("You picked up the glove and felt stronger for some reason......");
     } else if (Question3 === rite3_1) {
-        alert("You picked up the Charge Rifle. It looks brand new.")
+        alert("You picked up the Charge Rifle. It looks brand new.");
     } else {
-        alert("You picked up the Hero Shot and the cans of liquid beside it.")
+        alert("You picked up the Hero Shot and the cans of liquid beside it.");
     }
 
-    alert("You moved on to the launch pad to begin your journey")
+    alert("You moved on to the launch pad to begin your journey");
 
-    let rite4 = ("B")
-    let rite4_1 = ("C")
+    let rite4 = ("B");
+    let rite4_1 = ("C");
 
     if (Question2 === rite2) {
-        alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the first natural disaster.")
+        alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the  natural disaster.");
 
-        Question4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference")
+        Question4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference");
     } else if (Question2 === rite2_1) {
-        alert("You activated the jet boosters and rush to the site of the first natural disaster.\n2 hours later......\nYou just arrived at the site when mission control called and alerted you of an earthquake imminent in around 3 hours. You were instructed to evacuate as many citizens as possible.")
+        alert("You activated the jet boosters and rush to the site of the first natural disaster.\n2 hours later......\nYou just arrived at the site when mission control called and alerted you of an earthquake imminent in around 3 hours. You were instructed to evacuate as many citizens as possible.");
 
-        Queation4 = prompt("2 hours later, you finally evacuated the last citizen and had time to kill. What do you do?\nA)Nothing, take a break.\nB)Enquire the citizens about the earthquakes.\nc)Go search the area to find anything out of the ordinary.")
+        Queation4 = prompt("2 hours later, you finally evacuated the last citizen and had time to kill. What do you do?\nA)Nothing, take a break.\nB)Enquire the citizens about the earthquakes.\nc)Go search the area to find anything out of the ordinary.");
     } else {
-        Question4 = alert("You enter the jet and takeoff safely.\n5 hours later......")
-        alert("You were about to arrive at the site of the first disaster when an alert states that you were out of fuel. As the jet came crashing down, you pulled the emergency lever and were launched out safely.")
-        alert("As you stare at the crash site of your jet, you notice the strange rumbling around you. You realized it was an earthquake and helplessly watch buildings and rubble fall onto you.\nTry Again, you got crushed like a pancake.")
+        Question4 = alert("You enter the jet and takeoff safely.\n5 hours later......");
+        alert("You were about to arrive at the site of the first disaster when an alert states that you were out of fuel. As the jet came crashing down, you pulled the emergency lever and were launched out safely.");
+        alert("As you stare at the crash site of your jet, you notice the strange rumbling around you. You realized it was an earthquake and helplessly watch buildings and rubble fall onto you.\nTry Again, you got crushed like a pancake.");
         throw new Error();
     }
 
     if (Question4 === rite4 && Question2 === rite2) {
-        alert("The civilians did not believe you, as they thought you were trying to cause mass panic. Just then, the earthquake strikes. You watch helplessly as buildings start to fall and everyone gets crushed.\nGame Over.")
+        alert("The civilians did not believe you, as they thought you were trying to cause mass panic. Just then, the earthquake strikes. You watch helplessly as buildings start to fall and everyone gets crushed.\nGame Over.");
         throw new Error();
     } else if (Question4 === rite4_1 && Question2 === rite2) {
-        alert("You stood oustside in the middle of the earthquake for as long as possible, trying to film as much as possible. A piece of debris fell on top of you while you were filming. Although you died, it was not in vain as the collected data was used to help future survivors.\nGame Over, hero.")
+        alert("You stood oustside in the middle of the earthquake for as long as possible, trying to film as much as possible. A piece of debris fell on top of you while you were filming. Although you died, it was not in vain as the collected data was used to help future survivors.\nGame Over, hero.");
         throw new Error();
     } else if (Question4 === rite4 && Question2 === rite2_1) {
         alert("You asked the citizens of the village if they had regular earthquakes, when they started and why. From what you can gather, these earthquakes strted just last month, and can happen at least one week after the last one.")
@@ -149,7 +147,7 @@ if (username === Branson) {
     }
 
     alert("You search the man’s body. You find an insignia on his body, which was relatively burnt off like someone tried to remove it. The only thing that remained was the letter “S” that looked like it was wrapped in vines, leaving behind a sense of speculation as to what it spelt out. You open the bunker door, blinding you with the sudden burst of light.")
-    alert("Everything is still, signalling that the earthquake is over. You trudge towards the T.A.S.L.V. that remained unscathed due to the Ravioli’s high-tech updates and drive off back to the hangar.")
+    alert("Everything is still, signalling that the earthquake is over. You trudge towards the T.A.S.L.V. that remained unscathed due to the Rebellions’s high-tech updates and drive off back to the hangar.")
 
     alert("You fly back to the hanger to await further orders.")
 
@@ -218,12 +216,12 @@ if (username === Branson) {
     let Question9 = prompt("You wait for the man to start talking to see what he was going to do. 'Who are you?' He asks, 'What are you doing here? Are you on my side?' Do you...\nA) Be apprehensive about who the man is.\nB) Tell him the partial truth.\nC) Trust him.")
 
     if (Question9 === rite9) {
-        alert("You give a fake name.'I am Riley, I'm good.' He seemed doubtful of your second statement. He pulls you over and finds a Ravioli insignia on your pack. 'You're not.' He then stabs you. Game Over.")
+        alert("You give a fake name.'I am Riley, I'm good.' He seemed doubtful of your second statement. He pulls you over and finds a Rebellion insignia on your pack. 'You're not.' He then stabs you. Game Over.")
         throw new Error();
     } else if (Question9 === rite9_1) {
-        alert("'I'm Ravioli, I'm on your side.'The man responds with his name - Matt and says 'It's rare to find someone from our side.'. He releases you from the holo-prison. You then charge at him and knock him out…")
+        alert("'I'm" + username + ", I'm on your side.'The man responds with his name - Matt and says 'It's rare to find someone from our side.'. He releases you from the holo-prison. You then charge at him and knock him out…")
     } else {
-        alert("'I'm Thomas, I'm from the Ravioli, I'm good, you can trust me.'. The man snarls menacingly and says: 'Those who dare to defy The Sauciety deserves a deathly dose of divine destruction!' He takes out his knife and stabs you. Try Again.")
+        alert("'I'm" + username + ", I'm from the Rebellion, I'm good, you can trust me.'. The man snarls menacingly and says: 'Those who dare to defy The Sauciety deserves a deathly dose of divine destruction!' He takes out his knife and stabs you. Try Again.")
         throw new Error();
     }
 
@@ -252,7 +250,7 @@ if (username === Branson) {
 
     let rite11 = "A"
 
-    alert("You walk down the hallway and towards the exit. You find a machine that had the same font of insignia on the man's body, but instead of a 'S' it was an 'A'.There are more letters but they faded away with time. You dismantled the machine, only to find that the machine was actually an ancient computer that dated back to 2020. 'Oh, how primitive their technology was back then,' you think to yourself.\nHowever, these sorts of things have no value to the rich. After all, you didn't really care for the importance of these items, as long as The Ravioli needed it.")
+    alert("You walk down the hallway and towards the exit. You find a machine that had the same font of insignia on the man's body, but instead of a 'S' it was an 'A'.There are more letters but they faded away with time. You dismantled the machine, only to find that the machine was actually an ancient computer that dated back to 2020. 'Oh, how primitive their technology was back then,' you think to yourself.\nHowever, these sorts of things have no value to the rich. After all, you didn't really care for the importance of these items, as long as The Rebellion needed it.")
     alert("You were too busy dealing with disasters and monsters to have time for this, even when you're off, your horrible luck always lands you into some form of trouble. Chuckling bitterly to yourself, you haul yourself and the machine all they way back into the T.A.S.L.V and drive back to the hangar to interrogate Matt, the man you captured.")
 
     alert("You reach the hangar and enter the interrogation room. He was chained and bound to a chair. You start interrogating him, asking him basic questions such as his age and faction, about why he was doing this and if anyone ordered him to do so. All he does is laugh maniacally and says 'This is their will! Those who defy shall die!")
@@ -350,40 +348,40 @@ if (username === Branson) {
     let Question15 = prompt("All of a sudden, you hear a loud rumbling sound, you rush out to take a look. You look up and see a huge whirlpool but upon greater inspection realise that it wasn’t just a whirlpool but it was an ignisdo. You quickly head back into the room and look at the machine, there was a letter “E” on it. You quickly wrote it down and then tried to find a way to stop the ignisdo. Do you\nA) Look at the dangerously beautiful display of fire\nB) Try to destroy the machine by ripping it apart\nC) Calmly study the buttons on the machine")
 
     if (Question15 === rite15) {
-        alert("You get enveloped by the ignisdo, you diedered without any reason and didn’t even do anything useful. (Try Again)")
+        alert("You get enveloped by the ignisdo, you died without any reason and didn’t even do anything useful. (Try Again)")
         throw new Error();
     } else if (Question15 === rite15_1) {
         alert("You rip apart the metal plates on the machine, the machine stops functioning. The ignisdo continues to head towards you, it envelops you and you died. At least you destroyed the machine so no more ignisdos will ever happen again. (Try Again Hero)")
     } else {
-        alert("You find a button that says “Stop operation” and press it, everything goes back to being calm. You press the self destruct button and save everyone from ever having to deal with an ignisdo again.")
+        alert("You find a button that says “Stop operation” and press it, everything goes back to being calm. You press the self-destruct button and save everyone from ever having to deal with an ignisdo again.")
     }
 
     alert("You leave in your T.A.S.L.V and head back to the hangar for further orders. You leave your T.A.S.L.V in the vehicle garage to get upgraded and fixed from you ordeals as you head to your superior’s office to hand in your mission report. Your superior commends you for saving so many people as well as finding a link, “SAUCIE”. He gives you a 2 day break and you gladly accept.")
 
-    alert("Over the break, you decide to go to the city area to relax. You are walking around the town square when you see someone snooping around the unauthorised area only meant for the Survivors. You decide to apprehend him as he does not have the chip that was inserted into the Survivors when they join the Ravioli. He decides to fight back when you try to apprehend him. You hit him in the temple, knocking him out. ")
+    alert("Over the break, you decide to go to the city area to relax. You are walking around the town square when you see someone snooping around the unauthorised area only meant for the Survivors. You decide to apprehend him as he does not have the chip that was inserted into the Survivors when they join the Rebellion. He decides to fight back when you try to apprehend him. You hit him in the temple, knocking him out. ")
 
     alert("You bring him to the HQ after releasing an electric net on him that would shock him with 80 Volts of electricity if he struggled. While carrying him, you think “Why does this have to happen when I’m on my break?” You sigh deeply as you lug him into the interrogation room. You splash him with water to wake him up.")
 
-    alert("You rapidly hit him with torrents of questions, “Who are you? What are you doing here? Are you a spy? Who sent you?” “Hahaha” The man chuckled manically. 'You already know, don’t you have deja vu? This has happened before!'Or do you not remember who you caused to die? Bwahahahaha! You are no different from us, you’ve become the very thing you swore to destroy!”")
+    alert("You rapidly hit him with torrents of questions, “Who are you? What are you doing here? Are you a spy? Who sent you?” “Hahaha” The man chuckled manically. 'You already know, don’t you have déjà vu? This has happened before!'Or do you not remember who you caused to die? Bwahahahaha! You are no different from us, you’ve become the very thing you swore to destroy!”");
 
     alert("“The name is Matthew, Matt’s brother, you caused him to kill himself! Don’t you dare try to deny it! You aren’t going to get anything out of me! Those who dare to defy shall die!” You know that he is going to try to kill himself, so you inject him with a paralysis poison that deemed him unable to move.")
 
-    alert("You inspect his numb body and see the same insignia as on the other machines and people, the letter “T” was visible while the rest were burnt off. You touch the insignia and it feels hot. Before you can register what was happening, Matthew’s body bursts into flames, leaving no evidence behind. At least you were one step closer to solving the mystery.")
+    alert("You inspect his numb body and see the same insignia as on the other machines and people, the letter “T” was visible while the rest were burnt off. You touch the insignia and it feels hot. Before you can register what was happening, Matthew’s body bursts into flames, leaving no evidence behind. At least you were one step closer to solving the mystery.");
 
-    alert("The next day, your break ends. You report back to work and is tasked with the mission of going to the city of Metropolis that is in the state of Illinois to investigate the case of toxicus inundatios (Toxic floods) turning up in different places of the city. You decide to go to the previous sites of the floods to see if you can find any clues there.")
+    alert("The next day, your break ends. You report back to work and is tasked with the mission of going to the city of Metropolis that is in the state of Illinois to investigate the case of toxicus inundatios (Toxic floods) turning up in different places of the city. You decide to go to the previous sites of the floods to see if you can find any clues there.");
 
-    let rite16 = "A"
-    let rite16_1 = "B"
+    let rite16 = "A";
+    let rite16_1 = "B";
 
     let Question16 = prompt("You go down the sewers to see if anything is going on, but not before putting on your protective gear to avoid corrosion of your body. As you go down into the sewers, you notice weird numbered pipes that look different from the normal pipes that were installed by the head officers. Do you\nA) Follow the pipes to where they lead\nB) Investigate the pipe\nC) Swim in the water")
 
     if (Question16 === rite16) {
-        alert("You found a machine that makes the reservoir overflow…")
+        alert("You found a machine that makes the reservoir overflow…");
     } else if (Question16 === rite16_1) {
         alert("You find a button, press it and release all the toxic water, killing yourself. However, you release all the water that was meant to kill the residents of Metropolis. (Try Again Hero)")
         throw new Error();
     } else {
-        alert("You die, duh.(Try Again You Dimwit)")
+        alert("You die, duh.(Try Again)")
         throw new Error();
     }
 
@@ -391,47 +389,47 @@ if (username === Branson) {
     alert("Every single one of the Survivors geared up and equipped their ideal weapon of choice, before getting into their vehicles and driving off to the Sauciety’s base.")
     alert("You get into the T.A.S.L.V and catch up with the group. Everyone was thinking that was time to get revenge for their comrades and the innocent civilians that were harmed because of the Sauciety’s selfish dreams!”")
 
-    alert("Upon reaching their base, you can see the huge difference between The Ravioli and The Sauciety. The Sauciety was huge and and grand while The Ravioli was small, compact and rundown.")
-    alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute rebellion.")
+    alert("Upon reaching their base, you can see the huge difference between The Rebellion and The Sauciety. The Sauciety was huge and and grand while The Rebellion was small, compact and rundown.")
+    alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute rebellion.");
 
     let rite17 = "A"
     let rite17_1 = "B"
 
     if (Question3 === rite3) {
         alert("Just then, the alarm sounded. The ground rumbled as ten 100m tall plastic golems arose from the ground.")
-        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte")
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte");
     } else if (Question3 === rite3_1) {
-        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground.")
-        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Stand there and look menacing\nB) Charge the rifle\nC) Try to loop around the golem and infiltrate the base")
+        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground.");
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Stand there and look menacing\nB) Charge the rifle\nC) Try to loop around the golem and infiltrate the base");
     } else {
-        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground")
-        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Try to shoot the golem\nB) Stand there and look menacing\nC) Throw your gun at the golem")
+        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground");
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Try to shoot the golem\nB) Stand there and look menacing\nC) Throw your gun at the golem");
     }
 
     if (Question3 === rite3 && Question17 === rite17) {
         alert("The golem dies in a single punch. You continue to kill all the other golems that your comrades are fighting.")
     } else if (Question3 === rite3 && Question17 === rite17_1) {
-        alert("You get captured and pounded into dust by the golem. You die (You became baby powder, Try Again)")
+        alert("You get captured and pounded into dust by the golem. You die (You became baby golem powder, Try Again)")
         throw new Error();
     } else if (Question3 === rite3) {
         alert("Lightly punch the weak point of the golem. That kills the parasyte and stops the golem. You go ahead to kill the other golems")
     } else if (Question3 === rite3_1 && Question17 === rite17) {
-        alert("Get squashed by the golem and died(You became a pancake, Try Again)")
+        alert("Get squashed by the golem and died (You became a human pancake, Try Again)")
         throw new Error();
     } else if (Question17 === rite17_1 && Question3 === rite3_1) {
-        alert("Wait 5 seconds as the golem arrives, you shoot it and wound it critically. You charge again and then shoot at weak spot which kills golem. You then recharge your rifle to kill the other golems.")
+        alert("Wait 5 seconds as the golem arrives, you shoot it and wound it critically. You charge again and then shoot at weak spot which kills golems. You then recharge your rifle to kill the other golems.")
     } else if (Question3 === rite3_1) {
-        alert("You go around the golem and infiltrate the enemy base. Many people die. It's too hard to overthrow the whole base but you died trying(You don't have any cloning techniques from the looks of it, Try Again)")
+        alert("You go around the golem and infiltrate the enemy base. Many people die. It's too hard to overthrow the whole base but you died trying (You don't have any cloning techniques from the looks of it, Try Again)")
         throw new Error();
     } else if (Question17 === rite17) {
         alert("You try to shoot the golem but you run out of water, so you decided to transform it into its sword mode. The sword is unable to penetrate the golem’s THICC plastic layer.")
         alert("The golem flicks you off and you died What was that? A fly?-Golem \nTry Again")
         throw new Error();
     } else if (Question17 === rite17_1) {
-        alert("Stand there and look menacing. You get squashed by the golem and died(Try Again. Why did you think it would work again? Especially when golems don't watch Jojo.)")
+        alert("Stand there and look menacing. You get squashed by the golem and died (Try Again. Why did you think it would work again?.)")
         throw new Error();
     } else {
-        alert("You throw your gun at the golem. The golem crushes it into powder, just like in that one Revengers movie, where Spooderboy turned to dust. Then it crushed you. (Try Again, what Avengers? It's Revengers!)")
+        alert("You throw your gun at the golem. The golem crushes it into powder, just like in that one Revengers movie, where Spooderboy turned to dust. Then it crushed you. (Try Again, Revengers!)")
         throw new Error();
     }
 
@@ -443,18 +441,18 @@ if (username === Branson) {
     let Question18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you have to scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door")
 
     if (Question18 === rite18) {
-        alert("You drown and die in the acid water.(Try Again Squidward)")
+        alert("You drown and die in the acid water.(Try Again)")
         throw new Error();
     } else if (Question18 === rite18_1) {
         alert("The daunting main gate opens, you rush in with your weapon, preparing yourself for any surprise attacks")
     } else {
-        alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holey hooman ")
+        alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holy human")
         throw new Error();
     }
 
     alert("You tiptoe through a dark and long hallway when you hear a sound coming from a room that had a plague labelled 'Meeting Room'.")
 
-    alert("You eavesdrop and hear them say 'The Ravioli won’t know what will hit them. The battle will be over very soon.' You bust into the meeting room and shout 'I KNOW YOU'RE IN HERE SAUCY SAUCIETY!' They look shocked and draw their weapons.\nTHE BATTLE BEGINS")
+    alert("You eavesdrop and hear them say 'The Rebellion won’t know what will hit them. The battle will be over very soon.' You bust into the meeting room and shout 'I KNOW YOU'RE IN HERE SAUCY SOCIETY!' A wave a shock went through them and they draw their weapons.\nTHE BATTLE BEGINS")
 
     alert("The two brothers looks familiar to you as they arm themselves and one of them blasts you. You do a forward roll and punch him but it barely injures him, signs of pain show up on both their faces. You think 'I only struck the blonde-haired one, why did the ginger-haired also show that he was in pain?'")
 
@@ -467,7 +465,7 @@ if (username === Branson) {
     if (Question19 === rite19) {
         alert("You rush up the fortress and rush towards the roof.")
     } else {
-        alert("A trap door opens, dropping yu down a 24 ft hole, you die from the impact (Looks like you fell straight dowm to hell, Try Again)")
+        alert("A trap door opens, dropping yu down a 24 ft hole, you die from the impact (Looks like you fell straight down to hell, Try Again)")
         throw new Error();
     }
 
@@ -477,39 +475,39 @@ if (username === Branson) {
     if (Question1 === rite1) {
         alert("It works, thankfully, you've heard of instances where the PathFinder is faulty. You decide to focus on the fight and you attack him from the dark.")
     } else {
-        alert("It’s faulty, you've heard of instances where the PathFinder is faulty, who would've thought you would be one of the unluck few? You had grabbed the wrong pack (Try Again, try and pick the right pack this time.)")
+        alert("It’s faulty, you've heard of instances where the PathFinder is faulty, who would've thought you would be one of the unlucky few? You had grabbed the wrong pack (Try Again, try and pick the right pack this time.)")
 
         throw new Error();
     }
 
     let rite21 = "A"
 
-    alert("You furiously attack both of them in the dark and push one of them off the edge. You hear him scream before he crashes into the lake. His last moment, was suffered with acid corroding his body, causing the other brother to scream in pain.")
-    let Question21 = prompt("As the dark mist clears, you notice the ginger still standing there, laughing maniacally. “Didn’t you know that when one of us dies, we join together in the surviving body!”Do you\nA) Punch the guy and then strike him\nB) Stand there and say “I'm not scared!”")
+    alert("You furiously attack both of them in the dark and push one of them off the edge. You hear him scream before he crashes into the lake. His last moment, was suffered with acid corroding his body, causing the other brother to scream in pain.");
+    let Question21 = prompt("As the dark mist clears, you notice the ginger still standing there, laughing maniacally. “Didn’t you know that when one of us dies, we join together in the surviving body!”Do you\nA) Punch the guy and then strike him\nB) Stand there dramatically and menacingly with the wind blowing on you and say “I'm not scared! I will fight!”");
 
     if (Question21 === rite21) {
-        alert("The guy gets sent flying into the air, and dies.")
+        alert("The guy gets sent flying into the air, and dies.");
     } else {
-        alert("The guy strikes you, you stumble back, falling off the cliff and into the water, causing death (Try Again.)")
+        alert("The guy strikes you, you stumble back, falling off the cliff and into the water, causing death (Try Again, that was a bad time to die.)");
         throw new Error();
     }
 
-    alert("He has died, you confirm this by decapitating him. You decide to explore the fortress when you find a room labelled “Top Secret”. You enter and see a tree caged up behind a glass wall.")
+    alert("He has died, you confirm this by decapitating him. You decide to explore the fortress when you find a room labelled “Top Secret”. You enter and see a tree caged up behind a glass wall.");
 
-    alert("It is labelled the PPAP fruit and remember what the letter once stated “The PPAP fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.") |
+    alert("It is labelled the Cupuacu fruit and remember what the letter once stated “The PPAP fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.") |
 
         alert("You quickly inform your superior and dash back to HQ. After a few months, the lab synthesizes a cure for SER-COVLaN1. It is ready to be distributed worldwide and you are regarded as a hero.")
 
-    alert("All of a sudden, you hear a beeping sound, is it a bomb?")
+    alert("All of a sudden, you hear a beeping sound, is it a bomb?");
 
-    alert("You quickly dive and try to save those around you.")
-    alert("")
+    alert("You quickly dive and try to save those around you.");
+    alert("");
 
-    alert("")
+    alert("");
 
-    alert("You jolt awake and realise that it was all just a bad dream. It felt too real to be one though. After all, you are notorious for being a huge waster and not caring for the environment.")
+    alert("You jolt awake and realise that it was all just a bad dream. It felt too real to be one though. After all, you are notorious for being a huge waster and not caring for the environment.");
 
-    alert("You take this as a sign that you need to start being more environmentally friendly and start to inform your friends about being more eco-friendly and try changing your lifestyle as well, for fear of the dream coming true.")
+    alert("You take this as a sign that you need to start being more environmentally friendly and start to inform your friends about being more eco-friendly and try changing your lifestyle as well, for fear of the dream coming true.");
 
-    alert("As you promise to do so, your two brothers outside your window smile......")
+    alert("As you promise to do so, your two brothers outside your window smile......");
 }
