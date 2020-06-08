@@ -388,4 +388,128 @@ if (username === Branson) {
     }
 
     alert("You decide to inspect the machine. You finally find out that the machine has the letter “Y”on it. You compile all the letters together and get the word “SAUCIETY”. Ï should have known it was them! This must have all been part of The Uprising!” You hurriedly send a message back to your superior telling him that you have found out about who was behind everything. After that, you get back to the problem at hand, the machine. You blow up the machine and sped back to the HQ, preparing to gear up for the war to come.")
+    alert("Every single one of the Survivors geared up and equipped their ideal weapon of choice, before getting into their vehicles and driving off to the Sauciety’s base.")
+    alert("You get into the T.A.S.L.V and catch up with the group. Everyone was thinking that was time to get revenge for their comrades and the innocent civilians that were harmed because of the Sauciety’s selfish dreams!”")
+
+    alert("Upon reaching their base, you can see the huge difference between The Ravioli and The Sauciety. The Sauciety was huge and and grand while The Ravioli was small, compact and rundown.")
+    alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute rebellion.")
+
+    let rite17 = "A"
+    let rite17_1 = "B"
+
+    if (Question3 === rite3) {
+        alert("Just then, the alarm sounded. The ground rumbled as ten 100m tall plastic golems arose from the ground.")
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte")
+    } else if (Question3 === rite3_1) {
+        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground.")
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Stand there and look menacing\nB) Charge the rifle\nC) Try to loop around the golem and infiltrate the base")
+    } else {
+        alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground")
+        Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Try to shoot the golem\nB) Stand there and look menacing\nC) Throw your gun at the golem")
+    }
+
+    if (Question3 === rite3 && Question17 === rite17) {
+        alert("The golem dies in a single punch. You continue to kill all the other golems that your comrades are fighting.")
+    } else if (Question3 === rite3 && Question17 === rite17_1) {
+        alert("You get captured and pounded into dust by the golem. You die (You became baby powder, Try Again)")
+        throw new Error();
+    } else if (Question3 === rite3) {
+        alert("Lightly punch the weak point of the golem. That kills the parasyte and stops the golem. You go ahead to kill the other golems")
+    } else if (Question3 === rite3_1 && Question17 === rite17) {
+        alert("Get squashed by the golem and died(You became a pancake, Try Again)")
+        throw new Error();
+    } else if (Question17 === rite17_1 && Question3 === rite3_1) {
+        alert("Wait 5 seconds as the golem arrives, you shoot it and wound it critically. You charge again and then shoot at weak spot which kills golem. You then recharge your rifle to kill the other golems.")
+    } else if (Question3 === rite3_1) {
+        alert("You go around the golem and infiltrate the enemy base. Many people die. It's too hard to overthrow the whole base but you died trying(You don't have any cloning techniques from the looks of it, Try Again)")
+        throw new Error();
+    } else if (Question17 === rite17) {
+        alert("You try to shoot the golem but you run out of water, so you decided to transform it into its sword mode. The sword is unable to penetrate the golem’s THICC plastic layer.")
+        alert("The golem flicks you off and you died What was that? A fly?-Golem \nTry Again")
+        throw new Error();
+    } else if (Question17 === rite17_1) {
+        alert("Stand there and look menacing. You get squashed by the golem and died(Try Again. Why did you think it would work again? Especially when golems don't watch Jojo.)")
+        throw new Error();
+    } else {
+        alert("You throw your gun at the golem. The golem crushes it into powder, just like in that one Revengers movie, where Spooderboy turned to dust. Then it crushed you. (Try Again, what Avengers? It's Revengers!)")
+        throw new Error();
+    }
+
+    alert("You rush past the dead golems, and see a huge plain of acid water. You use your bionic contact lenses to zoom into the distance and see a huge fortress that is built on an a huge island. You get a daunting feeling that there is a fearsome enemy to come. You transform your T.A.S.L.V into its boat form before you set off towards the fortress.")
+
+    let rite18 = "A"
+    let rite18_1 = "B"
+
+    let Question18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you have to scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door")
+
+    if (Question18 === rite18) {
+        alert("You drown and die in the acid water.(Try Again Squidward)")
+        throw new Error();
+    } else if (Question18 === rite18_1) {
+        alert("The daunting main gate opens, you rush in with your weapon, preparing yourself for any surprise attacks")
+    } else {
+        alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holey hooman ")
+        throw new Error();
+    }
+
+    alert("You tiptoe through a dark and long hallway when you hear a sound coming from a room that had a plague labelled 'Meeting Room'.")
+
+    alert("You eavesdrop and hear them say 'The Ravioli won’t know what will hit them. The battle will be over very soon.' You bust into the meeting room and shout 'I KNOW YOU'RE IN HERE SAUCY SAUCIETY!' They look shocked and draw their weapons.\nTHE BATTLE BEGINS")
+
+    alert("The two brothers looks familiar to you as they arm themselves and one of them blasts you. You do a forward roll and punch him but it barely injures him, signs of pain show up on both their faces. You think 'I only struck the blonde-haired one, why did the ginger-haired also show that he was in pain?'")
+
+    alert("You decide to strike the blonde once again and the same thing happens. You realise that they are interconnected and if one is struck, the other will be injured as well.")
+
+    let rite19 = "A"
+
+    let Question19 = prompt("You focus your attacks on the blonde-haired man when the ginger presses a button. Do you……\nA) Open the door and head to the top of the fortress\nB) Stay in the room and continue to fight")
+
+    if (Question19 === rite19) {
+        alert("You rush up the fortress and rush towards the roof.")
+    } else {
+        alert("A trap door opens, dropping yu down a 24 ft hole, you die from the impact (Looks like you fell straight dowm to hell, Try Again)")
+        throw new Error();
+    }
+
+    let Question20 = alert("You and the two brothers continue to fight as you approach the roof. It then comes to the point where you and the two brothers fight on an overhang, directly underneath was the acidic water.")
+    alert("The edge was very close behind one of the brothers now, yet you continue to retreat. The two brothers continued advancing. You then broke all the lights and counter with the PathFinder that was in your pack…")
+
+    if (Question1 === rite1) {
+        alert("It works, thankfully, you've heard of instances where the PathFinder is faulty. You decide to focus on the fight and you attack him from the dark.")
+    } else {
+        alert("It’s faulty, you've heard of instances where the PathFinder is faulty, who would've thought you would be one of the unluck few? You had grabbed the wrong pack (Try Again, try and pick the right pack this time.)")
+
+        throw new Error();
+    }
+
+    let rite21 = "A"
+
+    alert("You furiously attack both of them in the dark and push one of them off the edge. You hear him scream before he crashes into the lake. His last moment, was suffered with acid corroding his body, causing the other brother to scream in pain.")
+    let Question21 = prompt("As the dark mist clears, you notice the ginger still standing there, laughing maniacally. “Didn’t you know that when one of us dies, we join together in the surviving body!”Do you\nA) Punch the guy and then strike him\nB) Stand there and say “I'm not scared!”")
+
+    if (Question21 === rite21) {
+        alert("The guy gets sent flying into the air, and dies.")
+    } else {
+        alert("The guy strikes you, you stumble back, falling off the cliff and into the water, causing death (Try Again.)")
+        throw new Error();
+    }
+
+    alert("He has died, you confirm this by decapitating him. You decide to explore the fortress when you find a room labelled “Top Secret”. You enter and see a tree caged up behind a glass wall.")
+
+    alert("It is labelled the PPAP fruit and remember what the letter once stated “The PPAP fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.") |
+
+        alert("You quickly inform your superior and dash back to HQ. After a few months, the lab synthesizes a cure for SER-COVLaN1. It is ready to be distributed worldwide and you are regarded as a hero.")
+
+    alert("All of a sudden, you hear a beeping sound, is it a bomb?")
+
+    alert("You quickly dive and try to save those around you.")
+    alert("")
+
+    alert("")
+
+    alert("You jolt awake and realise that it was all just a bad dream. It felt too real to be one though. After all, you are notorious for being a huge waster and not caring for the environment.")
+
+    alert("You take this as a sign that you need to start being more environmentally friendly and start to inform your friends about being more eco-friendly and try changing your lifestyle as well, for fear of the dream coming true.")
+
+    alert("As you promise to do so, your two brothers outside your window smile......")
 }
