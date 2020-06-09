@@ -38,14 +38,15 @@ function start() {
         alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
 
         let rite1 = ("A");
+
         do {
-            let Question1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
+            var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
         }
-        while (Question1 === "") 
-        
-        if (Question1 === null) {
+        while (Q1 === "") 
+
+        if (Q1 === null) {
             return;
-        } else if (Question1 === rite1) {
+        } else if (Q1 === rite1) {
             alert("You picked up the pack and went to the hanger for further instructions.");
         } else {
             alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
@@ -482,7 +483,7 @@ function start() {
         alert("You and the two brothers continue to fight as you approach the roof. It then comes to the point where you and the two brothers fight on an overhang, directly underneath was the acidic water.")
         alert("The edge was very close behind one of the brothers now, yet you continue to retreat. The two brothers continued advancing. You then broke all the lights and counter with the PathFinder that was in your pack…")
 
-        if (Question1 === rite1) {
+        if (Q1 === rite1) {
             alert("It works, thankfully, you've heard of instances where the PathFinder is faulty. You decide to focus on the fight and you attack him from the dark.")
         } else {
             alert("It’s faulty, you've heard of instances where the PathFinder is faulty, who would've thought you would be one of the unlucky few? You had grabbed the wrong pack (Try Again, try and pick the right pack this time.)")
