@@ -40,8 +40,10 @@ function start() {
         let rite1 = ("A");
 
         let Question1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
-
-        if (Question1 === rite1) {
+        
+        if (Question1 === null) {
+            return;
+        } else if (Question1 === rite1) {
             alert("You picked up the pack and went to the hanger for further instructions.");
         } else {
             alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
@@ -52,7 +54,9 @@ function start() {
 
         let Question2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.");
 
-        if (Question2 === rite2) {
+        if (Question2 === null) {
+            return;
+        } else if (Question2 === rite2) {
             alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle");
         } else if (Question2 === rite2_1) {
             alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
@@ -65,7 +69,9 @@ function start() {
 
         let Question3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?");
 
-        if (Question3 === rite3) {
+        if (Question3 === null) {
+            return;
+        } else if (Question3 === rite3) {
             alert("You picked up the glove and felt stronger for some reason......");
         } else if (Question3 === rite3_1) {
             alert("You picked up the Charge Rifle. It looks brand new.");
