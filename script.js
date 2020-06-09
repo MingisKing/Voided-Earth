@@ -34,7 +34,7 @@ if (username === Branson) {
 
     alert("About 700 species of animals have gone extinct due to the amount of toxins and microplastics released into the oceans, the amount of land cleared and the dirty air.\nSome parts of the ocean are filled with so much toxic waste that it is corrosive. Smaller sources of water have been contaminated and are not suitable for consumption.");
 
-    alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Sauciety.");
+    alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
 
     let rite1 = ("A");
 
@@ -78,7 +78,7 @@ if (username === Branson) {
     let rite4_1 = ("C");
 
     if (Question2 === rite2) {
-        alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the  natural disaster.");
+        alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the natural disaster.");
 
         Question4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference");
     } else if (Question2 === rite2_1) {
@@ -100,7 +100,7 @@ if (username === Branson) {
         throw new Error();
     } else if (Question4 === rite4 && Question2 === rite2_1) {
         alert("You asked the citizens of the village if they had regular earthquakes, when they started and why. From what you can gather, these earthquakes strted just last month, and can happen at least one week after the last one.")
-        alert("The village chief informed you that his grandfather said these powerful earthquakes started in different parts of the world back in 2079, as for why, no one knew. This was shocking information as the rise of the Sauciety was also in 2079.")
+        alert("The village chief informed you that his grandfather said these powerful earthquakes started in different parts of the world back in 2079, as for why, no one knew. This was shocking information as the rise of the Society was also in 2079.")
         alert("After enquiring all the villagers, mission control alerted you that the earthquake was due in roughtly 20 minutes. With that, you follow the last of the villagers into the bunker to wait out the earthquake.")
     } else if (Question4 === rite4_1 && Question2 === rite2_1) {
         alert("You comb the surrounding areas to look out for anything out of the ordinary. You find nothing and head to the bunker to wait out the earthquake.")
@@ -115,9 +115,9 @@ if (username === Branson) {
     if (Question4 === rite4 && Question3 === rite3_1 || Question2 === rite2 && Question3 === rite3_1) {
         Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you pull out your charge rifle, you see three obvious choices. Do you:\nA) Run towrds the man?\nB) Hide behind some rubble?\n or... ...C) Charge up your rifle?")
     } else if (Question4 === rite4 && Question3 === rite3 || Question2 === rite2 && Question3 === rite3) {
-        Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. You look up to see a man wearing a cloak which covered his face and body. As you quickly slip on the red gloves, you see three obvious choices. Do you:\nA) Charge head-on blindly.\nB) Hide behind rubble and launch a sneak attack.\nOr... ...C) Stand there menacingly.")
+        Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you quickly slip on the red gloves, you see three obvious choices. Do you:\nA) Charge head-on blindly.\nB) Hide behind rubble and launch a sneak attack.\nOr... ...C) Stand there menacingly.")
     } else {
-        Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. You look up to see a man wearing a cloak which covered his face and body. You whip out your Hero shot and load in the ammo. What do you do now? Do you:\nA) Fire at the man while running at him?\nB) Hide behind rubble until the man comes into range?\nOr... ...C) Throw your gun at the man.")
+        Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. You whip out your Hero shot and load in the ammo. What do you do now? Do you:\nA) Fire at the man while running at him?\nB) Hide behind rubble until the man comes into range?\nOr... ...C) Throw your gun at the man.")
     }
 
 
@@ -146,24 +146,24 @@ if (username === Branson) {
         throw new Error();
     }
 
-    alert("You search the man’s body. You find an insignia on his body, which was relatively burnt off like someone tried to remove it. The only thing that remained was the letter “S” that looked like it was wrapped in vines, leaving behind a sense of speculation as to what it spelt out. You open the bunker door, blinding you with the sudden burst of light.")
-    alert("Everything is still, signalling that the earthquake is over. You trudge towards the T.A.S.L.V. that remained unscathed due to the Rebellions’s high-tech updates and drive off back to the hangar.")
+    alert("You search the man’s body. You find an insignia on his body, which was relatively burnt off like someone tried to remove it. The only thing that remained was the letter “S” that looked like it was wrapped in vines, leaving behind a sense of speculation as to what it spelt out. You open the bunker door, blinding you with the sudden burst of light.");
+    alert("Everything is still, signalling that the earthquake is over. You trudge towards the T.A.S.L.V. that remained unscathed due to the Rebellions’s high-tech updates and drive off back to the hangar.");
 
-    alert("You fly back to the hanger to await further orders.")
+    alert("You fly back to the hanger to await further orders.");
 
-    alert("You get an update from your superiors that there has been news about not only a volcano about to erupt, but the rise of an epidemic too. The world is already facing so many threats, they cannot afford to have another worldwide emergency with so many things that are already on their plate. You get ready to head out as you go to the garage. You get in your vehicle and you speed off.")
+    alert("You get an update from your superiors that there has been news about not only a volcano about to erupt, but the rise of an epidemic too. The world is already facing so many threats, they cannot afford to have another worldwide emergency with so many things that are already on their plate. You get ready to head out as you go to the garage. You get in your vehicle and you speed off.");
 
     if (Question2 === rite2_1) {
-        alert("The road to the city is oddly flat and slippery,  the ATV travels at high speeds, you suddenly lose control of the vehicle and swerve due to the high speeds and died on impact. 2 FAST 4 U. Try Again, Vin Diesel.")
+        alert("The road to the city is oddly flat and slippery,  the ATV travels at high speeds, you suddenly lose control of the vehicle and swerve due to the high speeds and died on impact. 2 FAST 4 U. Try Again, Vin Diesel.");
         throw new Error();
     } else {
-        alert("In air mode, you travel as fast as possible and arrived smoothly.")
+        alert("In air mode, you travel as fast as possible and arrived smoothly.");
     }
-    let rite6 = "A"
-    let rite6_1 = "B"
-    alert("As you walk around the city, you hear many  people coughing and sneezing. You get closer to them and realise that many of the civilians have caught some sort of virus. You immediately walk away from the crowded areas, when you bump into someone who was dressed in black. He releases chloroform gas and knocks you out.")
-    alert("When you wake up, you see a bright light shining directly at your eyes. You blink repeatedly and see a shadow in front of you. You try to get up but realise that you are tied to a chair. Suddenly, you hear a voice cut through the silence like a knife, “I’m only going to ask once. Do you have a mask?”")
-    let Question6 = prompt("You slowly retrieve your mask from your storage. “This is my last one and it's for emergencies!” “He pulls out a knife and threatens you. “Hand over the mask! HAND IT OVER OR DIE! Do you...\nA) Say no because you need.\nB) Give him the mask as you still have your protective suit.\nC) Take out your knife and stab him.")
+    let rite6 = "A";
+    let rite6_1 = "B";
+    alert("As you walk around the city, you hear many  people coughing and sneezing. You get closer to them and realise that many of the civilians have caught some sort of virus. You immediately walk away from the crowded areas, when you bump into someone who was dressed in black. He releases chloroform gas and knocks you out.");
+    alert("When you wake up, you see a bright light shining directly at your eyes. You blink repeatedly and see a shadow in front of you. You try to get up but realise that you are tied to a chair. Suddenly, you hear a voice cut through the silence like a knife, “I’m only going to ask once. Do you have a mask?”");
+    let Question6 = prompt("You slowly retrieve your mask from your storage. “This is my last one and it's for emergencies!” “He pulls out a knife and threatens you. “Hand over the mask! HAND IT OVER OR DIE! Do you...\nA) Say no because you need.\nB) Give him the mask as you still have your protective suit.\nC) Take out your knife and stab him.");
 
     if (Question6 === rite6) {
         alert("The man gets angry but gives you a second chance to answer. You still disagree. He shoots you, it leaves a fatal wound and you die. Try Again.")
@@ -191,8 +191,8 @@ if (username === Branson) {
         throw new Error();
     }
 
-    let rite8 = "A"
-    let rite8_1 = "B"
+    let rite8 = "A";
+    let rite8_1 = "B";
 
     alert("As you feel yourself hit the ground surrounded by spider webs with a huge thud. The protective gear that you activated saves you from too much damage, but you twisted your ankle from landing on your feet. The other survivors were not so lucky. They fell down, only for them to die on impact.")
     alert("As you slowly recover from the pain, you pile up their corpses to bring back to the hangar to use as fertiliser. It would be quite a haul for the people to collect later as they are worth 6 sacks of fertilizer. ")
@@ -203,59 +203,59 @@ if (username === Branson) {
         alert("You quickly hide behind your invisi-shield and wait for the owner of the voice to appear. You trigger a trap by accident. Try Again.")
         throw new Error();
     } else if (Question8 === rite8_1) {
-        alert("You shout, “Come out! I’m not scared of you!” Suddenly, toxic water flows into the room. You see a figure run into a seperate room. You jump up onto your holoboard that is in your pack and watch as torrents of water gush out. Some of the rushing water splashes on you, corroding a few parts of your suit and already injured body. You pass out from the pain…")
+        alert("You shout, “Come out! I’m not scared of you!” Suddenly, toxic water flows into the room. You see a figure run into a seperate room. You jump up onto your holoboard that is in your pack and watch as torrents of water gush out. Some of the rushing water splashes on you, corroding a few parts of your suit and already injured body. You pass out from the pain…");
     } else {
-        alert("You explore the place and find a room with a bed that looks like someone recently stayed in it. You investigate the room to try to find clues of who was living there. You opened the drawer, which triggered a trap that killed you. Game Over.")
+        alert("You explore the place and find a room with a bed that looks like someone recently stayed in it. You investigate the room to try to find clues of who was living there. You opened the drawer, which triggered a trap that killed you. Game Over.");
         throw new Error();
     }
 
     let rite9 = "A"
     let rite9_1 = "B"
-    alert("You groggily try to understand the situation you're in. You are trapped in a huge holojail in the shape of a cube. You calm your rapidly beating heart and tried to think rationally. The owner of the voice appears after a few minutes of waiting. He is a tall and muscular man, with an unkempt beard and dirty clothes.")
+    alert("You groggily try to understand the situation you're in. You are trapped in a huge holojail in the shape of a cube. You calm your rapidly beating heart and tried to think rationally. The owner of the voice appears after a few minutes of waiting. He is a tall and muscular man, with an unkempt beard and dirty clothes.");
 
-    let Question9 = prompt("You wait for the man to start talking to see what he was going to do. 'Who are you?' He asks, 'What are you doing here? Are you on my side?' Do you...\nA) Be apprehensive about who the man is.\nB) Tell him the partial truth.\nC) Trust him.")
+    let Question9 = prompt("You wait for the man to start talking to see what he was going to do. 'Who are you?' He asks, 'What are you doing here? Are you on my side?' Do you...\nA) Be apprehensive about who the man is.\nB) Tell him the partial truth.\nC) Trust him.");
 
     if (Question9 === rite9) {
-        alert("You give a fake name.'I am Riley, I'm good.' He seemed doubtful of your second statement. He pulls you over and finds a Rebellion insignia on your pack. 'You're not.' He then stabs you. Game Over.")
+        alert("You give a fake name.'I am Riley, I'm good.' He seemed doubtful of your second statement. He pulls you over and finds a Rebellion insignia on your pack. 'You're not.' He then stabs you. Game Over.");
         throw new Error();
     } else if (Question9 === rite9_1) {
-        alert("'I'm" + username + ", I'm on your side.'The man responds with his name - Matt and says 'It's rare to find someone from our side.'. He releases you from the holo-prison. You then charge at him and knock him out…")
+        alert("'I'm" + username + ", I'm on your side.'The man responds with his name - Matt and says 'It's rare to find someone from our side.'. He releases you from the holo-prison. You then charge at him and knock him out…");
     } else {
-        alert("'I'm" + username + ", I'm from the Rebellion, I'm good, you can trust me.'. The man snarls menacingly and says: 'Those who dare to defy The Sauciety deserves a deathly dose of divine destruction!' He takes out his knife and stabs you. Try Again.")
+        alert("'I'm" + username + ", I'm from the Rebellion, I'm good, you can trust me.'. The man snarls menacingly and says: 'Those who dare to defy them deserves a deathly dose of divine destruction!' He takes out his knife and stabs you. Try Again.");
         throw new Error();
     }
 
-    let rite10 = "A"
-    let rite10_1 = "B"
+    let rite10 = "A";
+    let rite10_1 = "B";
 
     alert("You contact Headquarters to come collect Matt while you try to explore more of the place. You find another door in the basement and open it. Inside is a room filled with many chests and weird paintings hanging on the walls. You open one of the chests and inside is a scroll. You unroll it and on it is written")
-    alert("This room has many chests and paintings,\nThere is another door that will lead you to where the master is waiting\nThe master will help you\nFind the key in one of the many few\nChests and accomplish a feat\nThen the master you are able to meet\nYou open all the chests, but nothing is to be found in them. You look at the paintings, each quite similar except for one.")
-    alert("All are faces of unknown people that strikes a sense of apprehension, however, one of the people in the paintings has a missing eye. You unhook the painting and behind it was a hole in the wall.")
-    alert("You see a box inside and open it to find a silver key, grab the key and unlock the door.\nJust then, you heard footsteps coming from outside. You immediately scramble towards the door and are brought to a tall and snowy mountain.")
+    alert("This room has many chests and paintings,\nThere is another door that will lead you to where the master is waiting\nThe master will help you\nFind the key in one of the many few\nChests and accomplish a feat\nThen the master you are able to meet\nYou open all the chests, but nothing is to be found in them. You look at the paintings, each quite similar except for one.");
+    alert("All are faces of unknown people that strikes a sense of apprehension, however, one of the people in the paintings has a missing eye. You unhook the painting and behind it was a hole in the wall.");
+    alert("You see a box inside and open it to find a silver key, grab the key and unlock the door.\nJust then, you heard footsteps coming from outside. You immediately scramble towards the door and are brought to a tall and snowy mountain.");
 
-    alert("You look behind you and realise the door is missing. It is freezing cold so you equip your snowsuit which was inside your pack. After you have worn your snowsuit, you see a sign in front of you which says:\n'Follow the signs\nWhich will lead you to this abode of mine\nThe place that lacks luster\nwhere the master\nis waiting for you\nSo start making haste as the master wants to give you a clue'")
-    alert("You follow the signs which brought you to a deep dark cave. When you enter, you felt so much warmer. You take off your snowsuit and start exploring the cave.")
+    alert("You look behind you and realise the door is missing. It is freezing cold so you equip your snowsuit which was inside your pack. After you have worn your snowsuit, you see a sign in front of you which says:\n'Follow the signs\nWhich will lead you to this abode of mine\nThe place that lacks luster\nwhere the master\nis waiting for you\nSo start making haste as the master wants to give you a clue'");
+    alert("You follow the signs which brought you to a deep dark cave. When you enter, you felt so much warmer. You take off your snowsuit and start exploring the cave.");
     alert("Just then, you hear a strange voice 'Whoever has entered, I have been waiting anxiously for your arrival. ")
-    let Question10 = prompt("I'm Gretal Thumbell Iceberg, an environmentalist and mabye a poet. Can you help me?' Do you…\nA) Rush towards the holy voice\nB) Press the big red button on the wall\nC) You press a green button on the wall")
+    let Question10 = prompt("I'm Gretal Thumbell Iceberg, an environmentalist and mabye a poet. Can you help me?' Do you…\nA) Rush towards the holy voice\nB) Press the big red button on the wall\nC) You press a green button on the wall");
 
     if (Question10 === rite10) {
-        alert("You step on the multiple pressure plates that triggers the many traps set around the room. The walls start to close in, acid water starts raining down, poison arrows start to spring out, homing in on their target-You. One arrow hits your face and you feel it going numb. Despite the pain, you still ran towards this voice. It was like a siren, and you were a sailor. You end up coughing out blood, struggling to stay alive, but it was too late. Game Over.")
+        alert("You step on the multiple pressure plates that triggers the many traps set around the room. The walls start to close in, acid water starts raining down, poison arrows start to spring out, homing in on their target-You. One arrow hits your face and you feel it going numb. Despite the pain, you still ran towards this voice. It was like a siren, and you were a sailor. You end up coughing out blood, struggling to stay alive, but it was too late. Game Over.");
         throw new Error();
     } else if (Question10 === rite10_1) {
-        alert("You heard what sounds like macheinery powering down. You suspected some traps were disabled. You walk forward and encounter the holovid of Gretal Thumbelly Iceberg, 'It's been quite a while since a person has come here. If you're seeing this, I'm probably dead by now. Its 2068, and there is an evil group that is trying to dominate the world. Their actions are harming everyone and destroying the world! Please, stop them! There is an exit further down the hall, there you will be rewarded with something, use it for the greater good!' Somewhere down the cave,a door opens...")
+        alert("You heard what sounds like macheinery powering down. You suspected some traps were disabled. You walk forward and encounter the holovid of an aged man, 'It's been quite a while since a person has come here. If you're seeing this, I'm probably dead by now. Its 2068, and there is an evil group that is trying to dominate the world. Their actions are harming everyone and destroying the world! Please, stop them! There is an exit further down the hall, there you will be rewarded with something, use it for the greater good!' Somewhere down the cave,a door opens...");
     } else {
-        alert("Nothing happens. You think that everything is fine. Suddenly, a bunch of ravage parasytes rushes out from nowhere, and enter your body. These parasytes were mostly hungry after staying in this cave for so long... Game Over.")
+        alert("Nothing happens. You think that everything is fine. Suddenly, a bunch of ravage parasytes rushes out from nowhere, and enter your body. These parasytes were mostly hungry after staying in this cave for so long... Game Over.");
         throw new Error();
     }
 
-    let rite11 = "A"
+    let rite11 = "A";
 
-    alert("You walk down the hallway and towards the exit. You find a machine that had the same font of insignia on the man's body, but instead of a 'S' it was an 'A'.There are more letters but they faded away with time. You dismantled the machine, only to find that the machine was actually an ancient computer that dated back to 2020. 'Oh, how primitive their technology was back then,' you think to yourself.\nHowever, these sorts of things have no value to the rich. After all, you didn't really care for the importance of these items, as long as The Rebellion needed it.")
+    alert("You walk down the hallway and towards the exit. You find a machine that had the same font of insignia on the man's body, but instead of a 'S' it was an 'O'.There are more letters but they faded away with time. You dismantled the machine, only to find that the machine was actually an ancient computer that dated back to 2020. 'Oh, how primitive their technology was back then,' you think to yourself.\nHowever, these sorts of things have no value to the rich. After all, you didn't really care for the importance of these items, as long as The Rebellion needed it.")
     alert("You were too busy dealing with disasters and monsters to have time for this, even when you're off, your horrible luck always lands you into some form of trouble. Chuckling bitterly to yourself, you haul yourself and the machine all they way back into the T.A.S.L.V and drive back to the hangar to interrogate Matt, the man you captured.")
 
     alert("You reach the hangar and enter the interrogation room. He was chained and bound to a chair. You start interrogating him, asking him basic questions such as his age and faction, about why he was doing this and if anyone ordered him to do so. All he does is laugh maniacally and says 'This is their will! Those who defy shall die!")
     alert("He smashed his head against the back of the chair and committed suicide in the defence of “them”. A few seconds later, he was pronounced dead. All of a sudden, you see 2 tiny worm-like creatures crawling out of his eye sockets, you instinctively knew from experience that those were parasytes.")
-    let Question11 = prompt("On his neck had a word that was fading away, you only got a glimpse of the letters 'UC', also in the same font as the machine. You could not help but to quizzically wonder what the letters meant. The parasytes then start crawling down to find a new host to control. Do you…\nA) Squish them\nB) Capture them")
+    let Question11 = prompt("On his neck had a word that was fading away, you only got a glimpse of the letter 'C', also in the same font as the machine. You could not help but to quizzically wonder what the letters meant. The parasytes then start crawling down to find a new host to control. Do you…\nA) Squish them\nB) Capture them")
 
     if (Question11 === rite11) {
         alert("You squat down to get a closer look. They look disgusting. You squish them with your hand. Suddenly, you felt a flash of pain from your palm. You lift up your hand and realize both the parasytes were piercing your hand and crawling into your bloodstream. You scream in terror and disgust, as you were once told that once they enter a host there is no way to save them. You sit down, shocked, waiting for the imminent loss of control.")
@@ -272,7 +272,7 @@ if (username === Branson) {
     if (Question12 === rite12) {
         alert("Your week-long break begins. Yay!!!")
     } else {
-        alert("They are suspicious as to why you rejected them, was it because you are a spy? There is a confidential meeting going on in the two weeks, are you going to infitrate it?. (That was a horrible way to die, Try Again)")
+        alert("They are suspicious as to why you rejected them, was it because you are a spy? There is a confidential meeting going on in the two weeks, are you going to infitrate it?. They took out their lase guns and gunned you to death. (That was a horrible way to die, Try Again)")
         throw new Error();
     }
 
@@ -298,34 +298,34 @@ if (username === Branson) {
     }
 
     if (Question13 === rite13 && Question3 === rite3) {
-        alert("You uppercut the shark and it flies out of the water. The shark rushes down and back into the water at top speeds, dying on impact. You collect the parasytes for research purposes.")
+        alert("You uppercut the shark and it flies out of the water. The shark rushes down and back into the water at top speeds, dying on impact. You collect the parasytes for research purposes.");
     } else if (Question13 === rite13_1 && Question3 === rite3) {
-        alert("You hide in the T.A.S.L.V. It keeps crashing into the T.A.S.L.V. You exit and punch it hard in its stomach. Blood spews out of the shark, you grab a container and collect the parasytes that were punched out.")
+        alert("You hide in the T.A.S.L.V. It keeps crashing into the T.A.S.L.V. You exit and punch it hard in its stomach. Blood spews out of the shark, you grab a container and collect the parasytes that were punched out.");
     } else if (Question3 === rite3) {
-        alert("You give the shark a smouldering look. The shark was so frightened from that menacing smoulder and swam away.")
+        alert("You give the shark a smouldering look. The shark was so frightened from that menacing smoulder and swam away.");
     } else if (Question3 === rite3_1 && Question13 === rite13) {
-        alert("As you are charging the rifle, the shark bites you. Parasytes start crawling out of its mouth and taking over your body. Try Again.")
+        alert("As you are charging the rifle, the shark bites you. Parasytes start crawling out of its mouth and taking over your body. Try Again.");
         throw new Error();
     } else if (Question3 === rite3_1 && Question13 === rite13_1) {
-        alert("You hide in the T.A.S.L.V and start charging your rifle. The shark keeps trying to bump into the T.A.S.L.V. You exit the vehicle and start shooting it with your rifle. You kill the shark, and then quickly grab a container and trap as many parasytes that come out as possible.")
+        alert("You hide in the T.A.S.L.V and start charging your rifle. The shark keeps trying to bump into the T.A.S.L.V. You exit the vehicle and start shooting it with your rifle. You kill the shark, and then quickly grab a container and trap as many parasytes that come out as possible.");
     } else if (Question3 === rite3_1) {
-        alert("The gun bounces harmlessly off the shark. It then proceeds to devour its next meal - you. Try Again.")
+        alert("The gun bounces harmlessly off the shark. It then proceeds to devour its next meal - you. Try Again.");
         throw new Error();
     } else if (Question13 === rite13) {
-        alert("In the water, the hero shot is extremely powerful. You shoot the shark, causing a water torpedo to be shot. It hurtles the shark far far away,smashing it into jagged rocks.")
+        alert("In the water, the hero shot is extremely powerful. You shoot the shark, causing a water torpedo to be shot. It hurtles the shark far far away,smashing it into jagged rocks.");
     } else if (Question13 === rite13_1) {
-        alert("The shark keeps trying to crash into the T.A.S.L.V. You exit the vehicle, change the hero shot into a sword and stab the shark. The shark dies and you collect the parasytes")
+        alert("The shark keeps trying to crash into the T.A.S.L.V. You exit the vehicle, change the hero shot into a sword and stab the shark. The shark dies and you collect the parasytes");
     } else {
-        alert("You change the hero shot into a sword. You attack the shark. The shark sees you and rips away the sword from you using its jaws. The shark then devours you. Try Again.")
+        alert("You change the hero shot into a sword. You attack the shark. The shark sees you and rips away the sword from you using its jaws. The shark then devours you. Try Again.");
         throw new Error();
     }
 
-    alert("You then swim into the sunken neighbourhood to find the machine. After a period of searching, you find a strange looking contraption stuck underneath a table. You open it and eat the thing that was inside it. It tasted like a chocolate, strawberry and vanilla sundae with colourful chocolate sprinkles topped with a chocolate covered cherry with cool Hershey’s chocolate sauce drizzled around it with a delicious piece of chocolate coated crunchy wafer, added with a dollop of whipped cream.")
+    alert("You then swim into the sunken neighbourhood to find the machine. After a period of searching, you find a strange looking contraption stuck underneath a table. You open it and eat the thing that was inside it. It tasted like a chocolate, strawberry and vanilla sundae with colourful chocolate sprinkles topped with a chocolate covered cherry with cool Hershey’s chocolate sauce drizzled around it with a delicious piece of chocolate coated crunchy wafer, added with a dollop of whipped cream.");
 
     let rite14 = "A"
     let rite14_1 = "B"
 
-    let Question14 = prompt("Then you realise it is a chocolate, strawberry and vanilla sundae with colourful chocolate sprinkles topped with a chocolate covered cherry with cool Hershey’s chocolate sauce drizzled around it with a delicious piece of chocolate coated crunchy wafer, added with a dollop of whipped cream that have been left since the 21 century. (HOW IS IT NOT EXPIRED YOU ASK? THE ART OF PRESERVATION!) You look inside and find an even stranger contraption that had a look of a bomb but it was made with much more advanced technology. You see three wires. Do you cut the…\nA) Red wire\nB) Green wire\nC) Orange wire")
+    let Question14 = prompt("Then you realise it is a chocolate, strawberry and vanilla sundae with colourful chocolate sprinkles topped with a chocolate covered cherry with cool Hershey’s chocolate sauce drizzled around it with a delicious piece of chocolate coated crunchy wafer, added with a dollop of whipped cream that have been left since the 21 century. (HOW IS IT NOT EXPIRED YOU ASK? THE ART OF PRESERVATION!) You look inside and find an even stranger contraption that had a look of a bomb but it was made with much more advanced technology. You see three wires. Do you cut the…\nA) Red wire\nB) Green wire\nC) Orange wire");
 
     if (Question14 === rite14) {
         alert("You died from an explosion")
@@ -338,14 +338,14 @@ if (username === Branson) {
 
     alert("As you munch on your sundae, you see the strangest contraption beside the stranger contraption inside the strange contraption which is a letter. on the front says, “All case studies are case studies.” You open it and read it. On it wrote:")
 
-    alert("“To whoever is reading it, this about 2016, when PPAP  as a trend, if you d n't to know of  t, tr   earching it up on google  r whatever search engine you use now. I researched it when I was alive and fou    ut that the man that made the song actually discovered this fru   that c n cure all diseases. Ho e  r, I do not know if it is still av     le in your time. All I know is th t now, in 206 , a group was try  g to obtain it when I was still alive, I do not k    what the situation is like in your ti e. However, please stop the group, destroy them and retrieve the PPAP seed fro    e clutches of the     I   ”")
+    alert("“To whoever is reading it, this about 2016, when Cupuacu  as a trend, if you d n't to know of  t, tr   earching it up on google  r whatever search engine you use now. I researched it when I was alive and fou    ut that the man that made the song actually discovered this fru   that c n cure all diseases. Ho e  r, I do not know if it is still av     le in your time. All I know is th t now, in 206 , a group was try  g to obtain it when I was still alive, I do not k    what the situation is like in your ti e. However, please stop the group, destroy them and retrieve the Cupuacu seed fro    e clutches of the     I   ”")
 
     alert("You try to read on further but due to time, the words had already faded away. All that was left were the letters “I”. You get curious due to the fact that you are finding letters on your way. You try gathering all the letters and compile them. You get “SAUCI” “SAUCI? What does that mean?” You ask yourself. You take it down on your armband and head out.")
 
     let rite15 = "A"
     let rite15_1 = "B"
 
-    let Question15 = prompt("All of a sudden, you hear a loud rumbling sound, you rush out to take a look. You look up and see a huge whirlpool but upon greater inspection realise that it wasn’t just a whirlpool but it was an ignisdo. You quickly head back into the room and look at the machine, there was a letter “E” on it. You quickly wrote it down and then tried to find a way to stop the ignisdo. Do you\nA) Look at the dangerously beautiful display of fire\nB) Try to destroy the machine by ripping it apart\nC) Calmly study the buttons on the machine")
+    let Question15 = prompt("All of a sudden, you hear a loud rumbling sound, you rush out to take a look. You look up and see a huge whirlpool but upon greater inspection realise that it wasn’t just a whirlpool but it was an ignisdo. You quickly head back into the water and look at the machine, there was a letter “E” on it. You quickly wrote it down and then tried to find a way to stop the ignisdo. Do you\nA) Look at the dangerously beautiful display of fire\nB) Try to destroy the machine by ripping it apart\nC) Calmly study the buttons on the machine")
 
     if (Question15 === rite15) {
         alert("You get enveloped by the ignisdo, you died without any reason and didn’t even do anything useful. (Try Again)")
@@ -378,25 +378,25 @@ if (username === Branson) {
     if (Question16 === rite16) {
         alert("You found a machine that makes the reservoir overflow…");
     } else if (Question16 === rite16_1) {
-        alert("You find a button, press it and release all the toxic water, killing yourself. However, you release all the water that was meant to kill the residents of Metropolis. (Try Again Hero)")
+        alert("You find a button, press it and release all the toxic water, killing yourself. However, you release all the water that was meant to kill the residents of Metropolis. (Try Again Hero)");
         throw new Error();
     } else {
-        alert("You die, duh.(Try Again)")
+        alert("You die, duh.(Try Again)");
         throw new Error();
     }
 
-    alert("You decide to inspect the machine. You finally find out that the machine has the letter “Y”on it. You compile all the letters together and get the word “SAUCIETY”. Ï should have known it was them! This must have all been part of The Uprising!” You hurriedly send a message back to your superior telling him that you have found out about who was behind everything. After that, you get back to the problem at hand, the machine. You blow up the machine and sped back to the HQ, preparing to gear up for the war to come.")
-    alert("Every single one of the Survivors geared up and equipped their ideal weapon of choice, before getting into their vehicles and driving off to the Sauciety’s base.")
-    alert("You get into the T.A.S.L.V and catch up with the group. Everyone was thinking that was time to get revenge for their comrades and the innocent civilians that were harmed because of the Sauciety’s selfish dreams!”")
+    alert("You decide to inspect the machine. You finally find out that the machine has the letter “Y”on it. You compile all the letters together and get the word “SOCIETY”. Ï should have known it was them! This must have all been part of The Uprising!” You hurriedly send a message back to your superior telling him that you have found out about who was behind everything. After that, you get back to the problem at hand, the machine. You blow up the machine and sped back to the HQ, preparing to gear up for the war to come.");
+    alert("Every single one of the Survivors geared up and equipped their ideal weapon of choice, before getting into their vehicles and driving off to the Society’s base.");
+    alert("You get into the T.A.S.L.V and catch up with the group. Everyone was thinking that was time to get revenge for their comrades and the innocent civilians that were harmed because of the Society's selfish dreams!”");
 
-    alert("Upon reaching their base, you can see the huge difference between The Rebellion and The Sauciety. The Sauciety was huge and and grand while The Rebellion was small, compact and rundown.")
+    alert("Upon reaching their base, you can see the huge difference between The Rebellion and The Society. The Society was huge and and grand while The Rebellion was small, compact and rundown.");
     alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute rebellion.");
 
     let rite17 = "A"
     let rite17_1 = "B"
 
     if (Question3 === rite3) {
-        alert("Just then, the alarm sounded. The ground rumbled as ten 100m tall plastic golems arose from the ground.")
+        alert("Just then, the alarm sounded. The ground rumbled as ten 100m tall plastic golems arose from the ground.");
         Question17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte");
     } else if (Question3 === rite3_1) {
         alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground.");
@@ -412,45 +412,46 @@ if (username === Branson) {
         alert("You get captured and pounded into dust by the golem. You die (You became baby golem powder, Try Again)")
         throw new Error();
     } else if (Question3 === rite3) {
-        alert("Lightly punch the weak point of the golem. That kills the parasyte and stops the golem. You go ahead to kill the other golems")
+        alert("Lightly punch the weak point of the golem. That kills the parasyte and stops the golem. You go ahead to kill the other golems");
     } else if (Question3 === rite3_1 && Question17 === rite17) {
-        alert("Get squashed by the golem and died (You became a human pancake, Try Again)")
+        alert("Get squashed by the golem and died (You became a human pancake, Try Again)");
         throw new Error();
     } else if (Question17 === rite17_1 && Question3 === rite3_1) {
-        alert("Wait 5 seconds as the golem arrives, you shoot it and wound it critically. You charge again and then shoot at weak spot which kills golems. You then recharge your rifle to kill the other golems.")
+        alert("Wait 5 seconds as the golem arrives, you shoot it and wound it critically. You charge again and then shoot at weak spot which kills golems. You then recharge your rifle to kill the other golems.");
     } else if (Question3 === rite3_1) {
-        alert("You go around the golem and infiltrate the enemy base. Many people die. It's too hard to overthrow the whole base but you died trying (You don't have any cloning techniques from the looks of it, Try Again)")
+        alert("You go around the golem and infiltrate the enemy base. Many people die. It's too hard to overthrow the whole base but you died trying (You don't have any cloning techniques from the looks of it, Try Again)");
         throw new Error();
     } else if (Question17 === rite17) {
-        alert("You try to shoot the golem but you run out of water, so you decided to transform it into its sword mode. The sword is unable to penetrate the golem’s THICC plastic layer.")
-        alert("The golem flicks you off and you died What was that? A fly?-Golem \nTry Again")
+        alert("You try to shoot the golem but you run out of water, so you decided to transform it into its sword mode. The sword is unable to penetrate the golem’s thick plastic layer.");
+        alert("The golem flicks you off and you died.")
+        alert("What was that? A fly? - Golem \nTry Again")
         throw new Error();
     } else if (Question17 === rite17_1) {
-        alert("Stand there and look menacing. You get squashed by the golem and died (Try Again. Why did you think it would work again?.)")
+        alert("Stand there and look menacing. You get squashed by the golem and died (Try Again. Why did you think it would work again?.)");
         throw new Error();
     } else {
-        alert("You throw your gun at the golem. The golem crushes it into powder, just like in that one Revengers movie, where Spooderboy turned to dust. Then it crushed you. (Try Again, Revengers!)")
+        alert("You throw your gun at the golem. The golem crushes it into powder, just like in that one Revengers movie, where Spooderboy turned to dust. Then it crushed you. (Try Again, Revengers!)");
         throw new Error();
     }
 
-    alert("You rush past the dead golems, and see a huge plain of acid water. You use your bionic contact lenses to zoom into the distance and see a huge fortress that is built on an a huge island. You get a daunting feeling that there is a fearsome enemy to come. You transform your T.A.S.L.V into its boat form before you set off towards the fortress.")
+    alert("You rush past the dead golems, and see a huge plain of acid water. You use your bionic contact lenses to zoom into the distance and see a huge fortress that is built on an a huge island. You get a daunting feeling that there is a fearsome enemy to come. You transform your T.A.S.L.V into its boat form before you set off towards the fortress.");
 
-    let rite18 = "A"
-    let rite18_1 = "B"
+    let rite18 = "A";
+    let rite18_1 = "B";
 
-    let Question18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you have to scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door")
+    let Question18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you have to scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door");
 
     if (Question18 === rite18) {
-        alert("You drown and die in the acid water.(Try Again)")
+        alert("You drown and die in the acid water.(Try Again)");
         throw new Error();
     } else if (Question18 === rite18_1) {
-        alert("The daunting main gate opens, you rush in with your weapon, preparing yourself for any surprise attacks")
+        alert("The daunting main gate opens, you rush in with your weapon, preparing yourself for any surprise attacks");
     } else {
-        alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holy human")
+        alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holy human");
         throw new Error();
     }
 
-    alert("You tiptoe through a dark and long hallway when you hear a sound coming from a room that had a plague labelled 'Meeting Room'.")
+    alert("You tiptoe through a dark and long hallway when you hear a sound coming from a room that had a plague labelled 'Meeting Room'.");
 
     alert("You eavesdrop and hear them say 'The Rebellion won’t know what will hit them. The battle will be over very soon.' You bust into the meeting room and shout 'I KNOW YOU'RE IN HERE SAUCY SOCIETY!' A wave a shock went through them and they draw their weapons.\nTHE BATTLE BEGINS")
 
@@ -469,7 +470,7 @@ if (username === Branson) {
         throw new Error();
     }
 
-    let Question20 = alert("You and the two brothers continue to fight as you approach the roof. It then comes to the point where you and the two brothers fight on an overhang, directly underneath was the acidic water.")
+    alert("You and the two brothers continue to fight as you approach the roof. It then comes to the point where you and the two brothers fight on an overhang, directly underneath was the acidic water.")
     alert("The edge was very close behind one of the brothers now, yet you continue to retreat. The two brothers continued advancing. You then broke all the lights and counter with the PathFinder that was in your pack…")
 
     if (Question1 === rite1) {
@@ -494,7 +495,7 @@ if (username === Branson) {
 
     alert("He has died, you confirm this by decapitating him. You decide to explore the fortress when you find a room labelled “Top Secret”. You enter and see a tree caged up behind a glass wall.");
 
-    alert("It is labelled the Cupuacu fruit and remember what the letter once stated “The PPAP fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.") |
+    alert("It is labelled the Cupuacu fruit and remember what the letter once stated “The Cupuacu fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.") |
 
         alert("You quickly inform your superior and dash back to HQ. After a few months, the lab synthesizes a cure for SER-COVLaN1. It is ready to be distributed worldwide and you are regarded as a hero.")
 
