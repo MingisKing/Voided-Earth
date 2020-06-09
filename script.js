@@ -1,8 +1,8 @@
 function start() {
     do {
-        username = prompt("What is your name?");
+        var username = prompt("What is your name?");
     }
-    while (username = '')
+    while (username === '')
     let special = "Game Beater";
     let Branson = "Branson";
     let How_Wun = "How Wun";
