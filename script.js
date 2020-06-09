@@ -49,9 +49,11 @@ function start() {
             if (Q1 === null) {
                 return;
             } else if (Q1 === A) {
-            alert("You picked up the pack and went to the hanger for further instructions.");
+                alert("You picked up the pack and went to the hanger for further instructions.");
+                break;
             } else if (Q1 === B || Q1 === C) {
                 alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
+                break;
             } else {
                 var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
             }
