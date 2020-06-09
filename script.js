@@ -1,5 +1,8 @@
 function start() {
-    let username = prompt("What is your name?");
+    do {
+        var username = prompt("What is your name?");
+    }
+    while (username = '')
     let special = "Game Beater";
     let Branson = "Branson";
     let How_Wun = "How Wun";
@@ -37,7 +40,7 @@ function start() {
 
         alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
 
-        let rite1 = ("A");
+        let rite1 = "A";
 
         do {
             var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
@@ -52,16 +55,16 @@ function start() {
             alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
         }
 
-        let rite2 = ("C");
-        let rite2_1 = ("A");
+        let rite2 = "C";
+        let rite2_1 = "A";
 
-        let Question2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.");
+        let Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.");
 
-        if (Question2 === null) {
+        if (Q2 === null) {
             return;
-        } else if (Question2 === rite2) {
+        } else if (Q2 === rite2) {
             alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle");
-        } else if (Question2 === rite2_1) {
+        } else if (Q2 === rite2_1) {
             alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
         } else {
             alert("You chose the jet as you felt it was the wisest choice of the three.");
@@ -87,11 +90,11 @@ function start() {
         let rite4 = ("B");
         let rite4_1 = ("C");
 
-        if (Question2 === rite2) {
+        if (Q2 === rite2) {
             alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the natural disaster.");
 
             Question4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference");
-        } else if (Question2 === rite2_1) {
+        } else if (Q2 === rite2_1) {
             alert("You activated the jet boosters and rush to the site of the first natural disaster.\n2 hours later......\nYou just arrived at the site when mission control called and alerted you of an earthquake imminent in around 3 hours. You were instructed to evacuate as many citizens as possible.");
 
             Queation4 = prompt("2 hours later, you finally evacuated the last citizen and had time to kill. What do you do?\nA)Nothing, take a break.\nB)Enquire the citizens about the earthquakes.\nc)Go search the area to find anything out of the ordinary.");
@@ -102,19 +105,19 @@ function start() {
             throw new Error();
         }
 
-        if (Question4 === rite4 && Question2 === rite2) {
+        if (Question4 === rite4 && Q2 === rite2) {
             alert("The civilians did not believe you, as they thought you were trying to cause mass panic. Just then, the earthquake strikes. You watch helplessly as buildings start to fall and everyone gets crushed.\nGame Over.");
             throw new Error();
-        } else if (Question4 === rite4_1 && Question2 === rite2) {
+        } else if (Question4 === rite4_1 && Q2 === rite2) {
             alert("You stood oustside in the middle of the earthquake for as long as possible, trying to film as much as possible. A piece of debris fell on top of you while you were filming. Although you died, it was not in vain as the collected data was used to help future survivors.\nGame Over, hero.");
             throw new Error();
-        } else if (Question4 === rite4 && Question2 === rite2_1) {
+        } else if (Question4 === rite4 && Q2 === rite2_1) {
             alert("You asked the citizens of the village if they had regular earthquakes, when they started and why. From what you can gather, these earthquakes strted just last month, and can happen at least one week after the last one.")
             alert("The village chief informed you that his grandfather said these powerful earthquakes started in different parts of the world back in 2079, as for why, no one knew. This was shocking information as the rise of the Society was also in 2079.")
             alert("After enquiring all the villagers, mission control alerted you that the earthquake was due in roughtly 20 minutes. With that, you follow the last of the villagers into the bunker to wait out the earthquake.")
-        } else if (Question4 === rite4_1 && Question2 === rite2_1) {
+        } else if (Question4 === rite4_1 && Q2 === rite2_1) {
             alert("You comb the surrounding areas to look out for anything out of the ordinary. You find nothing and head to the bunker to wait out the earthquake.")
-        } else if (Question2 === rite2_1) {
+        } else if (Q2 === rite2_1) {
             alert("You doze off in the middle of the village to rest your tired body.\nYou wake up to rumbling to realise the earthquake had begun.You breathed your final breath as debris fell around you.(Try Again, you got flattened like prata)")
             throw new Error();
         } else {
@@ -122,34 +125,34 @@ function start() {
         }
         let rite5 = ("B")
         let rite5_1 = ("A")
-        if (Question4 === rite4 && Question3 === rite3_1 || Question2 === rite2 && Question3 === rite3_1) {
+        if (Question4 === rite4 && Question3 === rite3_1 || Q2 === rite2 && Question3 === rite3_1) {
             Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you pull out your charge rifle, you see three obvious choices. Do you:\nA) Run towrds the man?\nB) Hide behind some rubble?\n or... ...C) Charge up your rifle?")
-        } else if (Question4 === rite4 && Question3 === rite3 || Question2 === rite2 && Question3 === rite3) {
+        } else if (Question4 === rite4 && Question3 === rite3 || Q2 === rite2 && Question3 === rite3) {
             Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you quickly slip on the red gloves, you see three obvious choices. Do you:\nA) Charge head-on blindly.\nB) Hide behind rubble and launch a sneak attack.\nOr... ...C) Stand there menacingly.")
         } else {
             Question5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. You whip out your Hero shot and load in the ammo. What do you do now? Do you:\nA) Fire at the man while running at him?\nB) Hide behind rubble until the man comes into range?\nOr... ...C) Throw your gun at the man.")
         }
 
 
-        if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3_1 && Question5 === rite5 || Question2 === rite2 && Question3 === rite3_1 && Question5 === rite5) {
+        if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3_1 && Question5 === rite5 || Q2 === rite2 && Question3 === rite3_1 && Question5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise the man had a headset which allowed him to see through the rubble. He took out a gun, before blasting the rubble away with and killing you. (You just got blown away, Try Again)")
             throw new Error();
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3_1 && Question5 === rite5_1 || Question2 === rite2 && Question3 === rite3_1 && Question5 === rite5_1) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3_1 && Question5 === rite5_1 || Q2 === rite2 && Question3 === rite3_1 && Question5 === rite5_1) {
             alert("You run towards the man and hold down on the trigger. Before the charge rifle was fully charged, you were shot by the man with a gun. (Your reaction time was too slow, Try Again)")
             throw new Error();
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3_1 || Question2 === rite2 && Question3 === rite3_1) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3_1 || Q2 === rite2 && Question3 === rite3_1) {
             alert("Before the man could react, you fire a charged shot at him. The force of the shot knocks him against the opposite wall and rubble falls on him.")
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3 && Question5 === rite5 || Question2 === rite2 && Question3 === rite3 && Question5 === rite5) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3 && Question5 === rite5 || Q2 === rite2 && Question3 === rite3 && Question5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise the man had a headset which allowed him to see through the rubble. He took out a gun, before blasting the rubble away.")
             alert("As the smoke dissipitates, you realize you were completely fine. You walk towards the man. He begins to panic as he tries to pull the trigger, only to realise that was jammed. You throw a punch at the man and the force sends him flying to the wall. You stare astonished at your hands.")
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3 && Question5 === rite5_1 || Question2 === rite2 && Question3 === rite3 && Question5 === rite5_1) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3 && Question5 === rite5_1 || Q2 === rite2 && Question3 === rite3 && Question5 === rite5_1) {
             alert("You charge at the man blindly. As you rush towards the man, he tries to shoot you with his gun, but it was jammed. You rush out of the smoke and punched him upwards. The force was so strong it sent him flying to the roof. He then falls back down.")
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question3 === rite3 || Question2 === rite2 && Question3 === rite3) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question3 === rite3 || Q2 === rite2 && Question3 === rite3) {
             alert("You stood there menacingly. The man exclaims “ You're just standing there menacingly! Are you going to make your move?”, while distracted, you punch him and send him flying to the wall. ")
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question5 === rite5 || Question2 === rite2 && Question5 === rite5) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question5 === rite5 || Q2 === rite2 && Question5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise he had a headset which allowed him to see through the rubble. He blasted the rubble away with his gun. He then shoots you and you die. (You just got blown away, Try Again)")
             throw new Error();
-        } else if (Question4 === rite4 && Question2 === rite2_1 && Question5 === rite5_1 || Question2 === rite2 && Question5 === rite5_1) {
+        } else if (Question4 === rite4 && Q2 === rite2_1 && Question5 === rite5_1 || Q2 === rite2 && Question5 === rite5_1) {
             alert("You rapidly fire at the man but run out of bullets as it is powered by water. You change the hero shot into a sword and kill the man before he can react.")
         } else {
             alert("The hero shot hits the man. He stands there, confused. Then, angered by the action, he shoots you. (You just got blown away, Try Again)")
@@ -163,8 +166,8 @@ function start() {
 
         alert("You get an update from your superiors that there has been news about not only a volcano about to erupt, but the rise of an epidemic too. The world is already facing so many threats, they cannot afford to have another worldwide emergency with so many things that are already on their plate. You get ready to head out as you go to the garage. You get in your vehicle and you speed off.");
 
-        if (Question2 === rite2_1) {
-            alert("The road to the city is oddly flat and slippery,  the ATV travels at high speeds, you suddenly lose control of the vehicle and swerve due to the high speeds and died on impact. 2 FAST 4 U. Try Again, Vin Diesel.");
+        if (Q2 === rite2_1) {
+            alert("The road to the city is oddly flat and slippery, the ATV travels at high speeds, you suddenly lose control of the vehicle and swerve due to the high speeds and died on impact. 2 FAST 4 U. Try Again, Vin Diesel.");
             throw new Error();
         } else {
             alert("In air mode, you travel as fast as possible and arrived smoothly.");
