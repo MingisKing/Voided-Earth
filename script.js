@@ -38,13 +38,11 @@ function start() {
         alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
 
         let rite1 = ("A");
-        while (true) {
-            if (Question1 === "")
-            {
-                let Question1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
-            }
+        do {
+            let Question1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.");
         }
-
+        while (Question1 === "") 
+        
         if (Question1 === null) {
             return;
         } else if (Question1 === rite1) {
