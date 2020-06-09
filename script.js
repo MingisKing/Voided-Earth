@@ -42,38 +42,34 @@ function start() {
         var A = 'A';
         var B = 'B';
         var C = 'C';
-        let rite1 = "A";
+// Q1 = A
+        var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
 
         do {
-            var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
-        }
-        while (Q1 === "") 
-
-        if (Q1 === null) {
-            return;
-        } else if (Q1 === rite1) {
+            if (Q1 === null) {
+                return;
+            } else if (Q1 === A) {
             alert("You picked up the pack and went to the hanger for further instructions.");
-        } else if (Q1 === B || Q1 === C) {
-            alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
-        } else {
-            do {
+            } else if (Q1 === B || Q1 === C) {
+                alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
+            } else {
                 var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
             }
-            while (Q1 != "A" || Q1 != "B" || Q1 != "C") 
         }
+        while (Q1 != "A" || Q1 != "B" || Q1 != "C")
 
         let rite2 = "C";
         let rite2_1 = "A";
-
+// Q2 = C
         let Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
 
         if (Q2 === null) {
             return;
-        } else if (Q2 === rite2) {
+        } else if (Q2 === C) {
             alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle");
-        } else if (Q2 === rite2_1) {
+        } else if (Q2 === A) {
             alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
-        } else {
+        } else if (Q2 === B){
             alert("You chose the jet as you felt it was the wisest choice of the three.");
         }
 
@@ -493,7 +489,7 @@ function start() {
         alert("You and the two brothers continue to fight as you approach the roof. It then comes to the point where you and the two brothers fight on an overhang, directly underneath was the acidic water.");
         alert("The edge was very close behind one of the brothers now, yet you continue to retreat. The two brothers continued advancing. You then broke all the lights and counter with the PathFinder that was in your pack…");
 
-        if (Q1 === rite1) {
+        if (Q1 === A) {
             alert("It works, thankfully, you've heard of instances where the PathFinder is faulty. You decide to focus on the fight and you attack him from the dark.");
         } else {
             alert("It’s faulty, you've heard of instances where the PathFinder is faulty, who would've thought you would be one of the unlucky few? You had grabbed the wrong pack (Try Again, try and pick the right pack this time.)");
