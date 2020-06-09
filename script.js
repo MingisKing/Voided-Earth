@@ -169,7 +169,7 @@ if (username === Branson) {
         alert("The man gets angry but gives you a second chance to answer. You still disagree. He shoots you, it leaves a fatal wound and you die. Try Again.")
         throw new Error();
     } else if (Question6 === rite6_1) {
-        alert("He thanks you and releases you. You knew that the mask was for the worst case scenario where your suit stops functioning but it won't happen. You leave and turn on your protective suit’s respiratory function.")
+        alert("He thanks you and releases you. You knew that the mask was for the worst case scenario where your suit stops functioning but it won't happen. You leave and turn on your protective suit’s respiratory function.");
     } else {
         alert("You stabbed him. You leave the building filled with regret. However, you knew that in this time, everyone fights for survival, he was going to die anyways.")
     }
