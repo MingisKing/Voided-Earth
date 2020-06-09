@@ -1,6 +1,6 @@
 function start() {
     do {
-        var username = prompt("What is your name?");
+        username = prompt("What is your name?");
     }
     while (username = '')
     let special = "Game Beater";
