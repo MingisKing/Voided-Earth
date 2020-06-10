@@ -1,70 +1,44 @@
 function start() {
+    var starttime = new Date().getTime
     do {
         var username = prompt("What is your name?");
     }
     while (username === '' || username.length > 15)
-    let special = "Game Beater";
-    let Branson = "Branson";
-    let How_Wun = "How Wun";
-    let Charissa = "Charissa";
-    let Leigh = "Leigh";
-    let Ming_Haw = "Ming Haw";
-    let Mrs_Han = "Mrs Han";
-    if (username === Branson) {
-        alert("You beat the game already? Well, have a description of me then!");
-        alert("The coder of the game. Without me, the game would not be possible!");
-    } else if (username === How_Wun) {
-        alert("You beat the game already? Well, have a description of me then!");
-        alert("The almighty leader of the group, side storyboard writer. Without me, the entire group might descend into chaos.");
-    } else if (username === Charissa) {
-        alert("You beat the game already? Well, have a description of me then!");
-        alert("Main storyboard writer. How did I write it so well? Even I don't know...I guess it's bevause of my winging powers");
-    } else if (username === Leigh) {
-        alert("You beat the game already? Well, have a description of me then!");
-        alert("Side storyboard writer and finalist of the game. I provided the best moral and housing support the team could ever ask for :)");
-    } else if (username === Ming_Haw) {
-        alert("You beat the game already? Well, have a description of me then!");
-        alert("Final sweep of the script and game, as well as idea contributor. Without me, yall would be sued due to lack of acknowledgements. ¯\_(ツ)_/¯ ");
-    } else if (username === Mrs_Han) {
-        alert("Thanks for being such a great science teacher to us!");
-    } else if (username === special) {
-        alert("Thank you so much for playing Voided Earth!");
-    } else {
-        alert("Hello " + username + ", welcome to Voided Earth!!\nYou are in a dystopian sci-fi world in the year 3069. \nGlobal warming and pollution has gotten a thousand times worse. One side effect of this is extreme versions of natural disaters.");
 
-        alert("Over the years, plastics thrown into the ocean or landfills have mutated for strange unknown reasons and evolved into sentient golems with a hate for organic life. \nThere has been a rapid production of many greenhouse gases due to burning millions of tonnes of fossil fuels and natural gasses.");
+    alert("Hello " + username + ", welcome to Voided Earth!!\nYou are in a dystopian sci-fi world in the year 3069. \nGlobal warming and pollution has gotten a thousand times worse. One side effect of this is extreme versions of natural disaters.");
 
-        alert("The temperature can drop below -53°C in winter and rise up to 69°C in the summer.\nAir pollution has been attributed to more than 19% of deaths due to choking and asthma. \nThe ocean was also affected badly, with a destructive 500,000 tonnes of plastic waste escaping into the ocean every single day.");
+    alert("Over the years, plastics thrown into the ocean or landfills have mutated for strange unknown reasons and evolved into sentient golems with a hate for organic life. \nThere has been a rapid production of many greenhouse gases due to burning millions of tonnes of fossil fuels and natural gasses.");
 
-        alert("About 700 species of animals have gone extinct due to the amount of toxins and microplastics released into the oceans, the amount of land cleared and the dirty air.\nSome parts of the ocean are filled with so much toxic waste that it is corrosive. Smaller sources of water have been contaminated and are not suitable for consumption.");
+    alert("The temperature can drop below -53°C in winter and rise up to 69°C in the summer.\nAir pollution has been attributed to more than 19% of deaths due to choking and asthma. \nThe ocean was also affected badly, with a destructive 500,000 tonnes of plastic waste escaping into the ocean every single day.");
 
-        alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
-        var A = 'A';
-        var B = 'B';
-        var C = 'C';
-// Q1 = A
-        var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
+    alert("About 700 species of animals have gone extinct due to the amount of toxins and microplastics released into the oceans, the amount of land cleared and the dirty air.\nSome parts of the ocean are filled with so much toxic waste that it is corrosive. Smaller sources of water have been contaminated and are not suitable for consumption.");
 
-        do {
-            if (Q1 === null) {
-                return;
-            } else if (Q1 === A) {
-                alert("You picked up the pack and went to the hanger for further instructions.");
-                break;
-            } else if (Q1 === B || Q1 === C) {
-                alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
-                break;
-            } else {
-                var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
-            }
+    alert("There is now a lack of natural resources, causing the rich to enjoy living in the hands of The Society and the poor to starve away to death in slums. \nYou are a member of The Rebellion, and your goal is to try and save what is left of this world from the Society.");
+
+    var A = 'A';
+    var B = 'B';
+    var C = 'C';
+
+    var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
+
+    do {
+        if (Q1 === null) {
+            return;
+        } else if (Q1 === A) {
+            alert("You picked up the pack and went to the hanger for further instructions.");
+            break;
+        } else if (Q1 === B || Q1 === C) {
+            alert("You felt that something about the pack wasn't right but you still went to the hanger for further instructions.");
+            break;
+        } else {
+            var Q1 = prompt("You need to pick an equipment pack provided by The Rebellion.\nYou get to choose one of three packs.\nDo u pick:\nA)A neon yellow pack with a PathFinder tool attatched to it.\nB)A dull green pack with a PathFinder tool inside a waterproof pouch\nC)A red pack with a PathFinder tool attatched to it.").toUpperCase();
         }
-        while (Q1 != "A" || Q1 != "B" || Q1 != "C")
+    }
+    while (Q1 != "A" || Q1 != "B" || Q1 != "C")
 
-        let rite2 = "C";
-        let rite2_1 = "A";
-// Q2 = C
-        let Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
+    var Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
 
+    do {
         if (Q2 === null) {
             return;
         } else if (Q2 === C) {
@@ -73,91 +47,94 @@ function start() {
             alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
         } else if (Q2 === B){
             alert("You chose the jet as you felt it was the wisest choice of the three.");
-        }
-
-        let rite3 = ("C");
-        let rite3_1 = ("B");
-
-        let Q3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?");
-
-        if (Q3 === null) {
-            return;
-        } else if (Q3 === rite3) {
-            alert("You picked up the glove and felt stronger for some reason......");
-        } else if (Q3 === rite3_1) {
-            alert("You picked up the Charge Rifle. It looks brand new.");
         } else {
-            alert("You picked up the Hero Shot and the cans of liquid beside it.");
+            var Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
         }
+    }
+    while (Q2 != "A" || Q2 != "B" || Q2 != "C")
 
-        alert("You moved on to the launch pad to begin your journey");
+    let rite3 = "C";
+    let rite3_1 = "B";
 
-        let rite4 = ("B");
-        let rite4_1 = ("C");
+    var Q3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?");
 
-        if (Q2 === rite2) {
-            alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the natural disaster.");
+    if (Q3 === null) {
+        return;
+    } else if (Q3 === rite3) {
+        alert("You picked up the glove and felt stronger for some reason......");
+    } else if (Q3 === rite3_1) {
+        alert("You picked up the Charge Rifle. It looks brand new.");
+    } else {
+        alert("You picked up the Hero Shot and the cans of liquid beside it.");
+    }
 
-            Q4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference");
-        } else if (Q2 === rite2_1) {
-            alert("You activated the jet boosters and rush to the site of the first natural disaster.\n2 hours later......\nYou just arrived at the site when mission control called and alerted you of an earthquake imminent in around 3 hours. You were instructed to evacuate as many citizens as possible.");
+    alert("You moved on to the launch pad to begin your journey");
 
-            Q4 = prompt("2 hours later, you finally evacuated the last citizen and had time to kill. What do you do?\nA)Nothing, take a break.\nB)Enquire the citizens about the earthquakes.\nc)Go search the area to find anything out of the ordinary.");
-        } else {
-            Q4 = alert("You enter the jet and takeoff safely.\n5 hours later......");
-            alert("You were about to arrive at the site of the first disaster when an alert states that you were out of fuel. As the jet came crashing down, you pulled the emergency lever and were launched out safely.");
-            alert("As you stare at the crash site of your jet, you notice the strange rumbling around you. You realized it was an earthquake and helplessly watch buildings and rubble fall onto you.\nTry Again, you got crushed like a pancake.");
-            throw new Error();
-        }
+    let rite4 = "B";
+    let rite4_1 = "C";
 
-        if (Q4 === rite4 && Q2 === rite2) {
-            alert("The civilians did not believe you, as they thought you were trying to cause mass panic. Just then, the earthquake strikes. You watch helplessly as buildings start to fall and everyone gets crushed.\nGame Over.");
-            throw new Error();
-        } else if (Q4 === rite4_1 && Q2 === rite2) {
-            alert("You stood oustside in the middle of the earthquake for as long as possible, trying to film as much as possible. A piece of debris fell on top of you while you were filming. Although you died, it was not in vain as the collected data was used to help future survivors.\nGame Over, hero.");
-            throw new Error();
-        } else if (Q4 === rite4 && Q2 === rite2_1) {
-            alert("You asked the citizens of the village if they had regular earthquakes, when they started and why. From what you can gather, these earthquakes strted just last month, and can happen at least one week after the last one.")
-            alert("The village chief informed you that his grandfather said these powerful earthquakes started in different parts of the world back in 2079, as for why, no one knew. This was shocking information as the rise of the Society was also in 2079.")
-            alert("After enquiring all the villagers, mission control alerted you that the earthquake was due in roughtly 20 minutes. With that, you follow the last of the villagers into the bunker to wait out the earthquake.")
-        } else if (Q4 === rite4_1 && Q2 === rite2_1) {
-            alert("You comb the surrounding areas to look out for anything out of the ordinary. You find nothing and head to the bunker to wait out the earthquake.")
-        } else if (Q2 === rite2_1) {
-            alert("You doze off in the middle of the village to rest your tired body.\nYou wake up to rumbling to realise the earthquake had begun.You breathed your final breath as debris fell around you.(Try Again, you got flattened like prata)")
-            throw new Error();
-        } else {
-            alert("You rush into the bunker to hide.")
-        }
-        let rite5 = ("B")
-        let rite5_1 = ("A")
-        if (Q4 === rite4 && Q3 === rite3_1 || Q2 === rite2 && Q3 === rite3_1) {
+    if (Q2 === C) {
+        alert("You enter the vehicle in Air mode and take off.\n5 hours later......\nYou arrive at the site of the natural disaster.");
+
+        Q4 = prompt("As you wonder what disaster might strike, the ground starts to rumble. What do you do now?\nA) Run to the bunker for shelter.\nB) Run into the site and try to evacuate as many people as you can.\nC) Take a holo-vid of the situation for mission control to record and save for future reference");
+    } else if (Q2 === A) {
+        alert("You activated the jet boosters and rush to the site of the first natural disaster.\n2 hours later......\nYou just arrived at the site when mission control called and alerted you of an earthquake imminent in around 3 hours. You were instructed to evacuate as many citizens as possible.");
+
+        Q4 = prompt("2 hours later, you finally evacuated the last citizen and had time to kill. What do you do?\nA)Nothing, take a break.\nB)Enquire the citizens about the earthquakes.\nc)Go search the area to find anything out of the ordinary.");
+    } else {
+        Q4 = alert("You enter the jet and takeoff safely.\n5 hours later......");
+        alert("You were about to arrive at the site of the first disaster when an alert states that you were out of fuel. As the jet came crashing down, you pulled the emergency lever and were launched out safely.");
+        alert("As you stare at the crash site of your jet, you notice the strange rumbling around you. You realized it was an earthquake and helplessly watch buildings and rubble fall onto you.\nTry Again, you got crushed like a pancake.");
+        throw new Error();
+    }
+
+    if (Q4 === rite4 && Q2 === C) {
+        alert("The civilians did not believe you, as they thought you were trying to cause mass panic. Just then, the earthquake strikes. You watch helplessly as buildings start to fall and everyone gets crushed.\nGame Over.");
+        throw new Error();
+    } else if (Q4 === rite4_1 && Q2 === C) {
+        alert("You stood oustside in the middle of the earthquake for as long as possible, trying to film as much as possible. A piece of debris fell on top of you while you were filming. Although you died, it was not in vain as the collected data was used to help future survivors.\nGame Over, hero.");
+        throw new Error();
+    } else if (Q4 === rite4 && Q2 === A) {
+        alert("You asked the citizens of the village if they had regular earthquakes, when they started and why. From what you can gather, these earthquakes strted just last month, and can happen at least one week after the last one.")
+        alert("The village chief informed you that his grandfather said these powerful earthquakes started in different parts of the world back in 2079, as for why, no one knew. This was shocking information as the rise of the Society was also in 2079.")
+        alert("After enquiring all the villagers, mission control alerted you that the earthquake was due in roughtly 20 minutes. With that, you follow the last of the villagers into the bunker to wait out the earthquake.")
+    } else if (Q4 === rite4_1 && Q2 === A) {
+        alert("You comb the surrounding areas to look out for anything out of the ordinary. You find nothing and head to the bunker to wait out the earthquake.")
+    } else if (Q2 === A) {
+        alert("You doze off in the middle of the village to rest your tired body.\nYou wake up to rumbling to realise the earthquake had begun.You breathed your final breath as debris fell around you.(Try Again, you got flattened like prata)")
+        throw new Error();
+    } else {
+        alert("You rush into the bunker to hide.")
+    }
+        let rite5 = "B";
+        let rite5_1 = "A";
+        if (Q4 === rite4 && Q3 === rite3_1 || Q2 === C && Q3 === rite3_1) {
             Q5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you pull out your charge rifle, you see three obvious choices. Do you:\nA) Run towrds the man?\nB) Hide behind some rubble?\n or... ...C) Charge up your rifle?")
-        } else if (Q4 === rite4 && Q3 === rite3 || Q2 === rite2 && Q3 === rite3) {
+        } else if (Q4 === rite4 && Q3 === rite3 || Q2 === C && Q3 === rite3) {
             Q5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. As you quickly slip on the red gloves, you see three obvious choices. Do you:\nA) Charge head-on blindly.\nB) Hide behind rubble and launch a sneak attack.\nOr... ...C) Stand there menacingly.")
         } else {
             Q5 = prompt("You step into the bunker and are immediately knocked off your feet by a tripwire. As you look up you see a man wearing a cloak which covered his face and body. You whip out your Hero shot and load in the ammo. What do you do now? Do you:\nA) Fire at the man while running at him?\nB) Hide behind rubble until the man comes into range?\nOr... ...C) Throw your gun at the man.")
         }
 
-
-        if (Q4 === rite4 && Q2 === rite2_1 && Q3 === rite3_1 && Q5 === rite5 || Q2 === rite2 && Q3 === rite3_1 && Q5 === rite5) {
+        if (Q4 === rite4 && Q2 === A && Q3 === rite3_1 && Q5 === rite5 || Q2 === C && Q3 === rite3_1 && Q5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise the man had a headset which allowed him to see through the rubble. He took out a gun, before blasting the rubble away with and killing you. (You just got blown away, Try Again)")
             throw new Error();
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q3 === rite3_1 && Q5 === rite5_1 || Q2 === rite2 && Q3 === rite3_1 && Q5 === rite5_1) {
+        } else if (Q4 === rite4 && Q2 === A && Q3 === rite3_1 && Q5 === rite5_1 || Q2 === C && Q3 === rite3_1 && Q5 === rite5_1) {
             alert("You run towards the man and hold down on the trigger. Before the charge rifle was fully charged, you were shot by the man with a gun. (Your reaction time was too slow, Try Again)")
             throw new Error();
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Qu3 === rite3_1 || Q2 === rite2 && Q3 === rite3_1) {
+        } else if (Q4 === rite4 && Q2 === A && Qu3 === rite3_1 || Q2 === C && Q3 === rite3_1) {
             alert("Before the man could react, you fire a charged shot at him. The force of the shot knocks him against the opposite wall and rubble falls on him.")
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q3 === rite3 && Q5 === rite5 || Q2 === rite2 && Q3 === rite3 && Q5 === rite5) {
+        } else if (Q4 === rite4 && Q2 === A && Q3 === rite3 && Q5 === rite5 || Q2 === C && Q3 === rite3 && Q5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise the man had a headset which allowed him to see through the rubble. He took out a gun, before blasting the rubble away.")
             alert("As the smoke dissipitates, you realize you were completely fine. You walk towards the man. He begins to panic as he tries to pull the trigger, only to realise that was jammed. You throw a punch at the man and the force sends him flying to the wall. You stare astonished at your hands.")
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q3 === rite3 && Q5 === rite5_1 || Q2 === rite2 && Q3 === rite3 && Q5 === rite5_1) {
+        } else if (Q4 === rite4 && Q2 === A && Q3 === rite3 && Q5 === rite5_1 || Q2 === C && Q3 === rite3 && Q5 === rite5_1) {
             alert("You charge at the man blindly. As you rush towards the man, he tries to shoot you with his gun, but it was jammed. You rush out of the smoke and punched him upwards. The force was so strong it sent him flying to the roof. He then falls back down.")
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q3 === rite3 || Q2 === rite2 && Q3 === rite3) {
+        } else if (Q4 === rite4 && Q2 === A && Q3 === rite3 || Q2 === C && Q3 === rite3) {
             alert("You stood there menacingly. The man exclaims “ You're just standing there menacingly! Are you going to make your move?”, while distracted, you punch him and send him flying to the wall. ")
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q5 === rite5 || Q2 === rite2 && Q5 === rite5) {
+        } else if (Q4 === rite4 && Q2 === A && Q5 === rite5 || Q2 === C && Q5 === rite5) {
             alert("You hid behind some rubble and stayed silent. You did not realise he had a headset which allowed him to see through the rubble. He blasted the rubble away with his gun. He then shoots you and you die. (You just got blown away, Try Again)")
             throw new Error();
-        } else if (Q4 === rite4 && Q2 === rite2_1 && Q5 === rite5_1 || Q2 === rite2 && Q5 === rite5_1) {
+        } else if (Q4 === rite4 && Q2 === A && Q5 === rite5_1 || Q2 === C && Q5 === rite5_1) {
             alert("You rapidly fire at the man but run out of bullets as it is powered by water. You change the hero shot into a sword and kill the man before he can react.")
         } else {
             alert("The hero shot hits the man. He stands there, confused. Then, angered by the action, he shoots you. (You just got blown away, Try Again)")
@@ -171,7 +148,7 @@ function start() {
 
         alert("You get an update from your superiors that there has been news about not only a volcano about to erupt, but the rise of an epidemic too. The world is already facing so many threats, they cannot afford to have another worldwide emergency with so many things that are already on their plate. You get ready to head out as you go to the garage. You get in your vehicle and you speed off.");
 
-        if (Q2 === rite2_1) {
+        if (Q2 === A) {
             alert("The road to the city is oddly flat and slippery, the ATV travels at high speeds, you suddenly lose control of the vehicle and swerve due to the high speeds and died on impact. 2 FAST 4 U. Try Again, Vin Diesel.");
             throw new Error();
         } else {
@@ -408,20 +385,20 @@ function start() {
         alert("You get into the T.A.S.L.V and catch up with the group. Everyone was thinking that was time to get revenge for their comrades and the innocent civilians that were harmed because of the Society's selfish dreams!”");
 
         alert("Upon reaching their base, you can see the huge difference between The Rebellion and The Society. The Society was huge and and grand while The Rebellion was small, compact and rundown.");
-        alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute rebellion.");
+        alert("This struck anger in many of the Survivors since it was pure discrimination against the poor and the rich, as if there was a fine line that separated them. The Survivors rushed in protest and broke down the wall after a 30 minute siege.");
 
         let rite17 = "A";
         let rite17_1 = "B";
 
         if (Q3 === rite3) {
             alert("Just then, the alarm sounded. The ground rumbled as ten 100m tall plastic golems arose from the ground.");
-            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte");
+            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you… Do you\nA) Punch the golem\nB) Stand there and look menacing\nC) Remove the parasyte");
         } else if (Q3 === rite3_1) {
             alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground.");
-            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Stand there and look menacing\nB) Charge the rifle\nC) Try to loop around the golem and infiltrate the base");
+            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you… Do you\nA) Stand there and look menacing\nB) Charge the rifle\nC) Try to loop around the golem and infiltrate the base");
         } else {
             alert("Just then, the alarm sounded. The ground rumbled as 10 100m tall plastic golems arose from the ground");
-            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you…Do you\nA) Try to shoot the golem\nB) Stand there and look menacing\nC) Throw your gun at the golem");
+            Q17 = prompt("The ground trembled with every step they took, striking fear in everyone. One golem approaches you… Do you\nA) Try to shoot the golem\nB) Stand there and look menacing\nC) Throw your gun at the golem");
         }
 
         if (Q3 === rite3 && Q17 === rite17) {
@@ -457,13 +434,13 @@ function start() {
         let rite18 = "A";
         let rite18_1 = "B";
 
-        let Q18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you have to scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door");
+        let Q18 = prompt("You charge towards the fortress. As you get off your T.A.S L.V, you scourge the area to find a contraption to allow entry into the fortress. Do you……\nA) Jump into the water\nB) Walk around, find a button and press it\nC) Try to strike the door");
 
         if (Q18 === rite18) {
-            alert("You drown and die in the acid water.(Try Again)");
+            alert("You drown and die in the acid water. (Wow, Try Again)");
             throw new Error();
         } else if (Q18 === rite18_1) {
-            alert("The daunting main gate opens, you rush in with your weapon, preparing yourself for any surprise attacks");
+            alert("The daunting main gate opens and you rush in with your weapon, preparing yourself for any surprise attacks");
         } else {
             alert("You fall down the trap, and got pierced by a spike, thus dying, but not after injuring your hand. (Try Again, you holy human");
             throw new Error();
@@ -477,7 +454,7 @@ function start() {
 
         alert("You decide to strike the blonde once again and the same thing happens. You realise that they are interconnected and if one is struck, the other will be injured as well.");
 
-        let rite19 = "A"
+        let rite19 = "A";
 
         let Q19 = prompt("You focus your attacks on the blonde-haired man when the ginger presses a button. Do you……\nA) Open the door and head to the top of the fortress\nB) Stay in the room and continue to fight");
 
@@ -515,7 +492,7 @@ function start() {
 
         alert("It is labelled the Cupuacu fruit and remember what the letter once stated “The Cupuacu fruit is the holy fruit that can cure all diseases.” You jump for joy as you realise that you have found the key to saving the entire world from the deadly pandemic.");
 
-            alert("You quickly inform your superior and dash back to HQ. After a few months, the lab synthesizes a cure for SER-COVLaN1. It is ready to be distributed worldwide and you are regarded as a hero.");
+        alert("You quickly inform your superior and dash back to HQ. After a few months, the lab synthesizes a cure for SER-COVLaN1. It is ready to be distributed worldwide and you are regarded as a hero.");
 
         alert("All of a sudden, you hear a beeping sound, is it a bomb?");
 
@@ -529,6 +506,12 @@ function start() {
         alert("You take this as a sign that you need to start being more environmentally friendly and start to inform your friends about being more eco-friendly and try changing your lifestyle as well, for fear of the dream coming true.");
 
         alert("As you promise to do so, your two brothers outside your window smile......");
-    }
+    
+        alert('You win!')
 
+        var endtime = new Date().getTime();
+
+        var timetaken = starttime - endtime
+
+        alert('You took' + timetaken + 'to complete the game')
 }
