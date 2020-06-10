@@ -36,17 +36,20 @@ function start() {
     }
     while (Q1 != "A" || Q1 != "B" || Q1 != "C")
 
-    var Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
+    var Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase();
 
     do {
         if (Q2 === null) {
             return;
         } else if (Q2 === C) {
             alert("You chose the T.A.S.L.V. which stood for Transfomable.Air.Sea.Land.Vehicle");
+            break;
         } else if (Q2 === A) {
             alert("You love going fast, and obviously chose the fastest-looking vehicle you saw.");
+            break;
         } else if (Q2 === B){
             alert("You chose the jet as you felt it was the wisest choice of the three.");
+            break;
         } else {
             var Q2 = prompt("You proceed to the hanger as instructed.\nYou meet the Shipyard guard and was recommended to choose a vehicle built for high speed and resilience. Do you choose: \n A) An ATV with jet boosters\n B) A jet\n C) T.A.S.L.V.").toUpperCase;
         }
@@ -56,17 +59,20 @@ function start() {
     let rite3 = "C";
     let rite3_1 = "B";
 
-    var Q3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?");
+    var Q3 = prompt("You were told to visit the weaponsmith to choose a weapon for the trip.\nYou arrive at the weaponsmith and were given 3 choices.\nDo you choose:\nA) Hero Shot. Description: It has a high firing rate, with a medium shooting range. It requires a liquid to fire. It can turn into a sword for close-combat.\nB) Charge Rifle. Description: A single-fire laser that gathers power when the trigger is held. 4 shots can be fired before it needs to be reloaded.\nC) Weird Red Glove. Description: They said it was found outside in the scrapyard just a few days ago. There was a strange aura to it... how about you test it?").toUpperCase();
 
-    if (Q3 === null) {
-        return;
-    } else if (Q3 === rite3) {
-        alert("You picked up the glove and felt stronger for some reason......");
-    } else if (Q3 === rite3_1) {
-        alert("You picked up the Charge Rifle. It looks brand new.");
-    } else {
-        alert("You picked up the Hero Shot and the cans of liquid beside it.");
+    do {
+        if (Q3 === null) {
+            return;
+        } else if (Q3 === C) {
+            alert("You picked up the glove and felt stronger for some reason......");
+        } else if (Q3 === B) {
+            alert("You picked up the Charge Rifle. It looks brand new.");
+        } else {
+            alert("You picked up the Hero Shot and the cans of liquid beside it.");
+        }
     }
+    while (Q2 != "A" || Q2 != "B" || Q2 != "C")
 
     alert("You moved on to the launch pad to begin your journey");
 
